@@ -1,4 +1,3 @@
-"domain"
 slots:
   problem:
     type: text
@@ -7,36 +6,37 @@ slots:
 
 
 intents:
- - greet
- - goodbye
- - user_input
- - user_question
+    - greet
+    - goodbye
+    - user_input
+    - user_question
 
 
 entities:
- - problem
- - duration
+    - problem
+    - duration
 
+ 
 templates:
   utter_greet:
-    - 'Hello! How can I help?'
-    - 'Hey!!! What's up?'
-    - 'Hollaa!! Happy to see you today'
+    - Hello! How can I help?
+    - Hey!!! What's up?
+    - Hollaa!! Happy to see you today
   utter_goodbye:
-    - 'Talk to you later.'
-    - 'Bye bye :('
-    - 'Tata.. Take care pal'
-    - 'Bye.. I will miss you'
+    - Talk to you later.
+    - Bye bye :(
+    - Tata.. Take care pal
+    - Bye.. I will miss you
   utter_ask_problem:
-    - 'What do you feel right now?'
-  console:
-    - 'It's okay dear... This too shall pass'
-    - 'I know this is tough... But every problem has a solution'
-    - 'Relax dear... things will get better
-
+    - What do you feel right now?
+  utter_console:
+    - It's okay dear... This too shall pass
+    - I know this is tough... But every problem has a solution
+    - Relax dear... things will get better
+    
 
 actions:
- - utter_greet
- - utter_goodbye
- - utter_ask_problem
- - console
+    - utter_greet
+    - utter_goodbye
+    - utter_ask_problem
+    - utter_console
