@@ -6,7 +6,7 @@
 	- utter_goodbye
 ##story 3
 * user_question
-	- console
+	- utter_console
 ##story 4
 * user_input
 	- utter_ask_problem

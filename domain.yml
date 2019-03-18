@@ -1,33 +1,34 @@
 %YAML 1.1
 ---
 actions:
+- utter_greet
+- utter_console
 - utter_ask_problem
 - utter_goodbye
-- utter_greet
-- console
 entities:
 - duration
+- username
 - problem
 intents:
 - user_question
+- goodbye
 - greet
 - user_input
-- goodbye
 slots:
   duration:
     type: text
   problem:
     type: text
 templates:
-  console:
+  utter_ask_problem:
+  - text: What do you feel right now?
+  utter_console:
   - text: It's okay dear... This too shall pass
   - text: I know this is tough... But every problem has a solution
   - text: Relax dear... things will get better
-  utter_ask_problem:
-  - text: What do you feel right now?
   utter_goodbye:
   - text: Talk to you later.
-  - text: Bye bye :(
+  - text: Bye bye..:(
   - text: Tata.. Take care pal
   - text: Bye.. I will miss you
   utter_greet:

@@ -10,25 +10,39 @@ intents:
     - goodbye
     - user_input
     - user_question
+    - mood_affirm
+    - mood_deny
+    - mood_great
+    - mood_unhappy
 
 
 entities:
     - problem
     - duration
+    - username
 
  
 templates:
   utter_greet:
-    - Hello! How can I help?
+    - Hello! I am Quinn.. What is your sweet name?
     - Hey!!! What's up?
     - Hollaa!! Happy to see you today
   utter_goodbye:
     - Talk to you later.
-    - Bye bye :(
+    - Bye bye..:(
     - Tata.. Take care pal
     - Bye.. I will miss you
   utter_ask_problem:
     - What do you feel right now?
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great carry on!"
   utter_console:
     - It's okay dear... This too shall pass
     - I know this is tough... But every problem has a solution
@@ -40,3 +54,7 @@ actions:
     - utter_goodbye
     - utter_ask_problem
     - utter_console
+    - utter_cheer_up
+    - utter_did_that_help
+    - utter_happy
+    

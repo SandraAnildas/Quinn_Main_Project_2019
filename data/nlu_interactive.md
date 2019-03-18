@@ -1,13 +1,9 @@
-## intent:greet
-- hello
-- hello
+## intent:goodbye
+- thank you dear
 
-## intent:user_input
-- I feel [unhappy](problem) today
-- I dont know
-- I dont know
-- Nothing much
+## intent:greet
+- hellhello
+hey
 
 ## intent:user_question
-- I feel really sad
-- I am unhappy
+- I am so low...

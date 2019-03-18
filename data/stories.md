@@ -6,10 +6,19 @@
 	- utter_goodbye
 ##story 3
 * user_question
-	- console
+	- utter_console
 ##story 4
 * user_input
 	- utter_ask_problem
+	
+##story 5
+* greet
+  - utter_greet
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* mood_affirm
+  - utter_happy
 
 ## Generated Story -168230424380952957
 * user_input
@@ -32,8 +41,7 @@
     - utter_ask_problem
 * user_input
 * user_input
-    - console
-    - console
+    - utter_console
 
 ## Generated Story 5649544396524466680
 * greet
@@ -41,5 +49,13 @@
 * user_input
     - utter_ask_problem
 * user_question
-    - console
+    - utter_console
+
+## Generated Story 311758365160320290
+* greet
+    - utter_greet
+* user_question
+    - utter_console
+* goodbye
+    - utter_goodbye
 
