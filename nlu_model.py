@@ -15,5 +15,5 @@ def run_nlu():
 	print(interpreter.parse(u"I feel so empty these days...What should I do? "))
 	
 if __name__ == '__main__':
-	#train_nlu('./data/data.json', 'config_spacy.json', './models/nlu')
-	run_nlu()
+	train_nlu('./data/data.json', 'config_spacy.json', './models/nlu')
+	#run_nlu()

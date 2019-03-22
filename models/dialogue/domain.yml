@@ -1,0 +1,74 @@
+%YAML 1.1
+---
+actions:
+- ask_name
+- utter_greet
+- utter_goodbye
+- utter_ask_problem
+- utter_console
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+config:
+  store_entities_as_slots: true
+entities:
+- problem
+- duration
+- username
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- user_input:
+    use_entities: true
+- user_question:
+    use_entities: true
+- mood_affirm:
+    use_entities: true
+- mood_deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+slots:
+  duration:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  problem:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  username:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  ask_name:
+  - text: What should I call you dear?
+  - text: May I know your sweet name?
+  utter_ask_problem:
+  - text: What do you feel right now?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_console:
+  - text: It's okay dear... This too shall pass
+  - text: I know this is tough... But every problem has a solution
+  - text: Relax dear... things will get better
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye..:(
+  - text: Tata.. Take care pal
+  - text: Bye.. I will miss you
+  utter_greet:
+  - text: Hello! I am Quinn...
+  - text: Hey!!! What's up?
+  - text: Hollaa!! Happy to see you today
+  utter_happy:
+  - text: Great carry on!

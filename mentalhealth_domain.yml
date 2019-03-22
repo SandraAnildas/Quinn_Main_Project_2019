@@ -3,30 +3,52 @@ slots:
     type: text
   duration:
     type: text
+  PERSON:
+    type: text
 
 
 intents:
     - greet
+    - intro
     - goodbye
     - user_input
     - user_question
     - mood_affirm
     - mood_deny
-    - mood_great
+    - mood_happy
     - mood_unhappy
+    - mood_idle
 
 
 entities:
     - problem
     - duration
-    - username
+    - PERSON
 
  
 templates:
+  utter_ask_name:
+    - What should I call you dear?
+    - May I know your sweet name?
+    
   utter_greet:
-    - Hello! I am Quinn.. What is your sweet name?
-    - Hey!!! What's up?
-    - Hollaa!! Happy to see you today
+    - Hello! {PERSON} ...
+    - Hey {PERSON} !!! What's up?
+    - Hollaa {PERSON}!! Happy to see you today
+  
+  utter_affirm:
+    - Alright!
+    - Nice!
+    - Okay :)
+    - Cool
+    
+  utter_chit_chat:
+    - What are you doing now?
+    
+  utter_welcome:
+    - You're welcome
+    - Never Mention Dear!!
+    
   utter_goodbye:
     - Talk to you later.
     - Bye bye..:(
@@ -34,6 +56,8 @@ templates:
     - Bye.. I will miss you
   utter_ask_problem:
     - What do you feel right now?
+    - What is bothering you?
+  
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
       image: "https://i.imgur.com/nGF1K8f.jpg"
@@ -43,13 +67,36 @@ templates:
 
   utter_happy:
     - text: "Great carry on!"
+    
   utter_console:
     - It's okay dear... This too shall pass
     - I know this is tough... But every problem has a solution
     - Relax dear... things will get better
     
+  utter_ask_abt_day:
+    - How are you doing {PERSON}?
+    
+  utter_positive:
+    - No worries, I'm glad you are here :D
+    - All is well!!
+    - I am so happy that you are here
+    
+  utter_suggest_music:
+    - Would like to hear some good music?
+   
+  utter_ask_motivation:
+    - Do you need any motivation?
+    
+  utter_motivation:
+    - url:"https://www.youtube.com/watch?v=akjeulQqzYc"
+    - url:"https://www.youtube.com/watch?v=28U0m-66LI4"
+       
+    
+  share_positivity:
+    - I've got something I want to tell you today
 
 actions:
+    - utter_ask_name
     - utter_greet
     - utter_goodbye
     - utter_ask_problem
@@ -57,4 +104,12 @@ actions:
     - utter_cheer_up
     - utter_did_that_help
     - utter_happy
-    
+    - utter_affirm
+    - utter_chit_chat
+    - utter_welcome
+    - utter_ask_abt_day
+    - utter_positive
+    - utter_suggest_music
+    - utter_ask_motivation
+    - utter_share_positivity
+    - utter_motivation

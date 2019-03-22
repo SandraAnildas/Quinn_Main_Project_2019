@@ -1,37 +1,95 @@
 %YAML 1.1
 ---
 actions:
-- utter_greet
+- utter_welcome
+- utter_cheer_up
+- utter_positive
+- utter_suggest_music
+- utter_did_that_help
+- utter_ask_name
 - utter_console
-- utter_ask_problem
+- utter_ask_abt_day
+- utter_ask_motivation
+- utter_share_positivity
+- utter_happy
+- utter_greet
+- utter_chit_chat
 - utter_goodbye
+- utter_motivation
+- utter_affirm
+- utter_ask_problem
 entities:
 - duration
-- username
+- PERSON
 - problem
 intents:
-- user_question
 - goodbye
+- intro
+- gratitude
+- mood_happy
+- mood_affirm
 - greet
 - user_input
+- user_question
+- mood_deny
+- mood_unhappy
+- mood_idle
 slots:
+  PERSON:
+    type: text
   duration:
     type: text
   problem:
     type: text
 templates:
+  chit_chat:
+  - text: What are you doing now?
+  share_positivity:
+  - text: I've got something I want to tell you today
+  utter_affirm:
+  - text: Alright!
+  - text: Nice!
+  - text: Okay :)
+  - text: Cool
+  utter_ask_abt_day:
+  - text: How are you doing {PERSON}?
+  utter_ask_motivation:
+  - text: Do you need any motivation?
+  utter_ask_name:
+  - text: What should I call you dear?
+  - text: May I know your sweet name?
   utter_ask_problem:
   - text: What do you feel right now?
+  - text: What is bothering you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
   utter_console:
   - text: It's okay dear... This too shall pass
   - text: I know this is tough... But every problem has a solution
   - text: Relax dear... things will get better
+  utter_did_that_help:
+  - text: Did that help you?
   utter_goodbye:
   - text: Talk to you later.
   - text: Bye bye..:(
   - text: Tata.. Take care pal
   - text: Bye.. I will miss you
   utter_greet:
-  - text: Hello! How can I help?
-  - text: Hey!!! What's up?
-  - text: Hollaa!! Happy to see you today
+  - text: Hello! {PERSON} ...
+  - text: Hey {PERSON} !!! What's up?
+  - text: Hollaa {PERSON}!! Happy to see you today
+  utter_happy:
+  - text: Great carry on!
+  utter_motivation:
+  - text: url:"https://www.youtube.com/watch?v=akjeulQqzYc"
+  - text: url:"https://www.youtube.com/watch?v=28U0m-66LI4"
+  utter_positive:
+  - text: No worries, I'm glad you are here :D
+  - text: All is well!!
+  - text: I am so happy that you are here
+  utter_suggest_music:
+  - text: Would like to hear some good music?
+  utter_welcome:
+  - text: You're welcome
+  - text: Never Mention Dear!!

@@ -1,9 +1,18 @@
 ## intent:goodbye
-- thank you dear
+- gtg
+
+## intent:gratitude
+- thank you
 
 ## intent:greet
-- hellhello
-hey
+- hello
 
-## intent:user_question
-- I am so low...
+## intent:intro
+- call me [Sanu](PERSON)
+
+## intent:mood_affirm
+- ok
+
+## intent:mood_happy
+- idoing good
+- great day
