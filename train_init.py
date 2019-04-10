@@ -3,6 +3,8 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
+
+
 import logging
 
 from rasa_core.agent import Agent
@@ -18,13 +20,14 @@ logger = logging.getLogger(__name__)
 def run_mentalhealth_online(interpreter,
                           domain_file="mentalhealth_domain.yml",
                           training_data_file='data/stories.md'):
-    action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")						  
+    action_endpoint = EndpointConfig(url="http://localhost:50455/webhook")						  
     agent = Agent(domain_file,
                   policies=[MemoizationPolicy(max_history=2), KerasPolicy(max_history=3, epochs=400, batch_size=50)],
                   interpreter=interpreter,
 				  action_endpoint=action_endpoint)
     				  
-    data = agent.load_data(training_data_file)			   
+    data = agent.load_data(training_data_file)
+	
     agent.train(data)
     interactive.run_interactive_learning(agent, training_data_file)
     return agent

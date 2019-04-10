@@ -18,6 +18,14 @@ intents:
     - mood_happy
     - mood_unhappy
     - mood_idle
+    - cant_sleep
+    - headache
+    - gratitude
+    - suicide
+    - failure_thoughts
+    - guilty
+    - motivation
+    - mood_solitude
 
 
 entities:
@@ -27,14 +35,11 @@ entities:
 
  
 templates:
-  utter_ask_name:
-    - What should I call you dear?
-    - May I know your sweet name?
-    
+  
   utter_greet:
-    - Hello! {PERSON} ...
-    - Hey {PERSON} !!! What's up?
-    - Hollaa {PERSON}!! Happy to see you today
+    - Hello! ...
+    - Hey!!! What's up?
+    - Hollaa!! Happy to see you today
   
   utter_affirm:
     - Alright!
@@ -57,6 +62,7 @@ templates:
   utter_ask_problem:
     - What do you feel right now?
     - What is bothering you?
+    - Do you have anything to tell me?
   
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
@@ -74,7 +80,8 @@ templates:
     - Relax dear... things will get better
     
   utter_ask_abt_day:
-    - How are you doing {PERSON}?
+    - How are you doing?
+    - How is the day?
     
   utter_positive:
     - No worries, I'm glad you are here :D
@@ -86,17 +93,31 @@ templates:
    
   utter_ask_motivation:
     - Do you need any motivation?
+  
+  utter_lonely_response:
+    - I know it’s hard to see this right now, but it’s only temporary… Things will change. You won’t feel this way forever. Look to that day.
+    - I’m here for you.Things will definitely get better. Stay enagaged
+    - You're not alone.
+    - This is not your fault. I can always change your mindset
+    - You are not alone dear.... I'm here for you. Don't worry..
     
   utter_motivation:
-    - url:"https://www.youtube.com/watch?v=akjeulQqzYc"
-    - url:"https://www.youtube.com/watch?v=28U0m-66LI4"
-       
+    - Here's something to motivate you...
+        url:"https://www.youtube.com/watch?v=akjeulQqzYc"
+    - This video might help you...
+        url:"https://www.youtube.com/watch?v=28U0m-66LI4"
+    - I have something here to motivate you
+        url:"https://www.youtube.com/watch?v=tC2l--VdjMY"
+    - This may help you
+        url:"https://www.youtube.com/watch?v=fiutY4ojZUQ"
     
-  share_positivity:
-    - I've got something I want to tell you today
+  utter_share_positivity:
+    - I've got something I want to tell you today.
+  utter_love:
+    - Quinn loves everyone :):)
 
 actions:
-    - utter_ask_name
+    - utter_lonely_response
     - utter_greet
     - utter_goodbye
     - utter_ask_problem
@@ -113,3 +134,6 @@ actions:
     - utter_ask_motivation
     - utter_share_positivity
     - utter_motivation
+    - utter_love
+    - sendmail
+    

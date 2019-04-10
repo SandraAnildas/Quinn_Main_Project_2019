@@ -1,14 +1,15 @@
 {
   "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "greet",
+        "pattern": "h[^\\s]*e[^\\s]*l[^\\s]*l[^\\s]*o[^\\s]*"
+      }
+    ],
     "common_examples": [
       {
         "text": "Hello",
         "intent": "greet",
-        "entities": []
-      },
-      {
-        "text": "goodbye",
-        "intent": "goodbye",
         "entities": []
       },
       {
@@ -42,6 +43,66 @@
         "entities": []
       },
       {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "moin",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "what's up",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "wassup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "what up",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "sup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
         "text": "bye",
         "intent": "goodbye",
         "entities": []
@@ -65,6 +126,54 @@
         "text": "see you later",
         "intent": "goodbye",
         "entities": []
+      },
+      {
+        "text": "hey!!! This is Neena here",
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Neena",
+            "entity": "PERSON"
+          }
+        ]
+      },
+      {
+        "text": "I'm Sandra",
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Sandra",
+            "entity": "PERSON"
+          }
+        ]
+      },
+      {
+        "text": "This is Hectar",
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Hectar",
+            "entity": "PERSON"
+          }
+        ]
+      },
+      {
+        "text": "Myself Anil",
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "Anil",
+            "entity": "PERSON"
+          }
+        ]
       },
       {
         "text": "I am Neelima",
@@ -103,6 +212,50 @@
         ]
       },
       {
+        "text": "I can't sleep",
+        "intent": "cant_sleep",
+        "entities": []
+      },
+      {
+        "text": "I am sleepless",
+        "intent": "cant_sleep",
+        "entities": []
+      },
+      {
+        "text": "I m sleep deprived",
+        "intent": "cant_sleep",
+        "entities": []
+      },
+      {
+        "text": "I have very less sleep these days",
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "very less",
+            "entity": "duration"
+          }
+        ]
+      },
+      {
+        "text": "I am awake all the time. even during the nights",
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "all the time",
+            "entity": "duration"
+          }
+        ]
+      },
+      {
+        "text": "I am not able to sleep properly",
+        "intent": "cant_sleep",
+        "entities": []
+      },
+      {
         "text": "I can't sleep well for the past few days",
         "intent": "cant_sleep",
         "entities": [
@@ -117,18 +270,6 @@
             "end": 40,
             "value": "past few days",
             "entity": "duration"
-          }
-        ]
-      },
-      {
-        "text": "I have a severe headache",
-        "intent": "headache",
-        "entities": [
-          {
-            "start": 8,
-            "end": 24,
-            "value": " severe headache",
-            "entity": "problem"
           }
         ]
       },
@@ -151,28 +292,124 @@
         ]
       },
       {
-        "text": "I am feeling extremely sad these days.. What should I do?",
-        "intent": "user_question",
-        "entities": [
-          {
-            "start": 5,
-            "end": 27,
-            "value": "feeling extremely sad ",
-            "entity": "problem"
-          }
-        ]
+        "text": "yep",
+        "intent": "mood_affirm",
+        "entities": []
       },
       {
-        "text": "I feel so angry...How do I overcome it?",
-        "intent": "user_question",
-        "entities": [
-          {
-            "start": 2,
-            "end": 15,
-            "value": "feel so angry",
-            "entity": "problem"
-          }
-        ]
+        "text": "oh yeah",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "oh yes",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "hell yeah",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "hell yes",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "for sure",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "totally",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "absolutely",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "definitely",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "so much",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "so much better",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "you're a life-saver",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "you saved my life",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "you've saved my life",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "so helpful",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah, thanks",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "sure",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "I guess so",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "I guess",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "kind of",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "kinda",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "a little bit",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "a little",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "somewhat",
+        "intent": "mood_affirm",
+        "entities": []
       },
       {
         "text": "yes",
@@ -290,6 +527,81 @@
         "entities": []
       },
       {
+        "text": "wonderful",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "I am feeling very good",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "I feel happy",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "I feel great",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "I feel amazing",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "I feel good",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "I feel wonderful",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "really good",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "really great",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "pretty good",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "pretty great",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "really awesome",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "pretty awesome",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "pretty amazing",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
+        "text": "pretty wonderful",
+        "intent": "mood_happy",
+        "entities": []
+      },
+      {
         "text": "my day was horrible",
         "intent": "mood_unhappy",
         "entities": [
@@ -338,13 +650,8 @@
         ]
       },
       {
-        "text": "nothing",
-        "intent": "mood_idle",
-        "entities": []
-      },
-      {
-        "text": "I have nothing much to do",
-        "intent": "mood_idle",
+        "text": "I thank you",
+        "intent": "gratitude",
         "entities": []
       },
       {
@@ -364,6 +671,16 @@
       },
       {
         "text": "I don't feel like living",
+        "intent": "suicide",
+        "entities": []
+      },
+      {
+        "text": "I have suicidal thoughts",
+        "intent": "suicide",
+        "entities": []
+      },
+      {
+        "text": "I get suicidal thoughts",
         "intent": "suicide",
         "entities": []
       },
@@ -388,6 +705,11 @@
         "entities": []
       },
       {
+        "text": "i quit",
+        "intent": "failure_thoughts",
+        "entities": []
+      },
+      {
         "text": "i am a complete failure",
         "intent": "failure_thoughts",
         "entities": []
@@ -395,11 +717,6 @@
       {
         "text": "I always fail",
         "intent": "failure_thoughts",
-        "entities": []
-      },
-      {
-        "text": "I thank you",
-        "intent": "gratitude",
         "entities": []
       },
       {
@@ -426,6 +743,18 @@
             "end": 20,
             "value": "often",
             "entity": "duration"
+          }
+        ]
+      },
+      {
+        "text": "I have a severe headache",
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": " severe headache",
+            "entity": "problem"
           }
         ]
       },
@@ -479,6 +808,18 @@
         "entities": []
       },
       {
+        "text": "I am having headache for the past two days",
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 28,
+            "end": 42,
+            "value": " past two days",
+            "entity": "duration"
+          }
+        ]
+      },
+      {
         "text": "I think I have a serious issue with my head. I always aches",
         "intent": "headache",
         "entities": [
@@ -491,47 +832,403 @@
         ]
       },
       {
-        "text": "I can't sleep",
-        "intent": "cant_sleep",
-        "entities": []
-      },
-      {
-        "text": "I am sleepless",
-        "intent": "cant_sleep",
-        "entities": []
-      },
-      {
-        "text": "I m sleep deprived",
-        "intent": "cant_sleep",
-        "entities": []
-      },
-      {
-        "text": "I have very less sleep these days",
-        "intent": "cant_sleep",
+        "text": "I m guilty",
+        "intent": "guilty",
         "entities": [
           {
-            "start": 7,
-            "end": 16,
-            "value": "very less",
-            "entity": "duration"
+            "start": 4,
+            "end": 10,
+            "value": "guilty",
+            "entity": "problem"
           }
         ]
       },
       {
-        "text": "I am awake all the time. even during the nights",
-        "intent": "cant_sleep",
+        "text": "I'm guilty",
+        "intent": "guilty",
         "entities": [
           {
-            "start": 11,
-            "end": 23,
-            "value": "all the time",
-            "entity": "duration"
+            "start": 4,
+            "end": 10,
+            "value": "guilty",
+            "entity": "problem"
           }
         ]
       },
       {
-        "text": "I am not able to sleep properly",
-        "intent": "cant_sleep",
+        "text": "I am guilty",
+        "intent": "guilty",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "guilty",
+            "entity": "problem"
+          }
+        ]
+      },
+      {
+        "text": "I think I feel guilty",
+        "intent": "guilty",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "feel guilty",
+            "entity": "problem"
+          }
+        ]
+      },
+      {
+        "text": "I am feeling guilty",
+        "intent": "guilty",
+        "entities": [
+          {
+            "start": 2,
+            "end": 19,
+            "value": "am feeling guilty",
+            "entity": "problem"
+          }
+        ]
+      },
+      {
+        "text": "not at all",
+        "intent": "mood_deny",
+        "entities": []
+      },
+      {
+        "text": "not in the least",
+        "intent": "mood_deny",
+        "entities": []
+      },
+      {
+        "text": "not even a little",
+        "intent": "mood_deny",
+        "entities": []
+      },
+      {
+        "text": "not even",
+        "intent": "mood_deny",
+        "entities": []
+      },
+      {
+        "text": "hell no",
+        "intent": "mood_deny",
+        "entities": []
+      },
+      {
+        "text": "thank you so much",
+        "intent": "gratitude",
+        "entities": []
+      },
+      {
+        "text": "I am so thankful to you",
+        "intent": "gratitude",
+        "entities": []
+      },
+      {
+        "text": "i express my gratitude to you",
+        "intent": "gratitude",
+        "entities": []
+      },
+      {
+        "text": "I am thankful to you",
+        "intent": "gratitude",
+        "entities": []
+      },
+      {
+        "text": "I'm not happy",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "I feel sad",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "I feel terrible",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "I feel horrible",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "I feel awful",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "I feel like shit",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "I hate my life",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "I hate my job",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "I hate my girlfriend",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "I hate my boyfriend",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "unhappy",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "sad",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "bummed",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "down",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "shitty",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "crappy",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "awful",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "terrible",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "horrible",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "I want to die",
+        "intent": "suicide",
+        "entities": []
+      },
+      {
+        "text": "suicidal",
+        "intent": "suicide",
+        "entities": []
+      },
+      {
+        "text": "hmm",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "Mmmmm",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "I love solitude",
+        "intent": "mood_solitude",
+        "entities": []
+      },
+      {
+        "text": "I love being lonely",
+        "intent": "mood_solitude",
+        "entities": []
+      },
+      {
+        "text": "loneliness gives me happiness",
+        "intent": "mood_solitude",
+        "entities": []
+      },
+      {
+        "text": "I feel lonely these days",
+        "intent": "mood_solitude",
+        "entities": []
+      },
+      {
+        "text": "I like to isolate from everyone",
+        "intent": "mood_solitude",
+        "entities": []
+      },
+      {
+        "text": "I dont like anyone's company",
+        "intent": "mood_solitude",
+        "entities": []
+      },
+      {
+        "text": "I am always lonely",
+        "intent": "mood_solitude",
+        "entities": []
+      },
+      {
+        "text": "I love loneliness",
+        "intent": "mood_solitude",
+        "entities": []
+      },
+      {
+        "text": "You know what loneliness is the best way to escape from all problems",
+        "intent": "mood_solitude",
+        "entities": []
+      },
+      {
+        "text": "How I love loneliness!",
+        "intent": "mood_solitude",
+        "entities": []
+      },
+      {
+        "text": "My life always offers me loneliness",
+        "intent": "mood_solitude",
+        "entities": []
+      },
+      {
+        "text": "I need motivation",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "I think I lack motivation",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "It is high time I get motivated",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "Motivation is what I need",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "There is no one to motivate me",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "I cant do anything...I lost all my capabilities",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "I really need some motivation",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "I need someone to motivate me",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "I cant motivate myself",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "Give me some motivation",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "Can you just motivate me?",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "Can you motivate me?",
+        "intent": "motivation",
+        "entities": []
+      },
+      {
+        "text": "thank you so much quinn",
+        "intent": "gratitude",
+        "entities": []
+      },
+      {
+        "text": "heeeelllllloooooo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hhheeelllloooo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hheelloo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hhheeeeellllooooo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hhhhiiiiiiii",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hiiiiii",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hiiiiiiiiiiiiiiiiiiiiiiii",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hhheeeyyyyy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heyyyyyyyy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heyyyyyyyyyyyyyyyyyyyyy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heyy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hollllaaaa",
+        "intent": "greet",
         "entities": []
       }
     ]

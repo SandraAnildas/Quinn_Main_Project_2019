@@ -1,7 +1,6 @@
 %YAML 1.1
 ---
 actions:
-- ask_name
 - utter_greet
 - utter_goodbye
 - utter_ask_problem
@@ -9,15 +8,26 @@ actions:
 - utter_cheer_up
 - utter_did_that_help
 - utter_happy
+- utter_affirm
+- utter_chit_chat
+- utter_welcome
+- utter_ask_abt_day
+- utter_positive
+- utter_suggest_music
+- utter_ask_motivation
+- utter_share_positivity
+- utter_motivation
 config:
   store_entities_as_slots: true
 entities:
 - problem
 - duration
-- username
+- PERSON
 forms: []
 intents:
 - greet:
+    use_entities: true
+- intro:
     use_entities: true
 - goodbye:
     use_entities: true
@@ -29,11 +39,29 @@ intents:
     use_entities: true
 - mood_deny:
     use_entities: true
-- mood_great:
+- mood_happy:
     use_entities: true
 - mood_unhappy:
     use_entities: true
+- mood_idle:
+    use_entities: true
+- cant_sleep:
+    use_entities: true
+- headache:
+    use_entities: true
+- gratitude:
+    use_entities: true
+- suicide:
+    use_entities: true
+- failure_thoughts:
+    use_entities: true
+- guilty:
+    use_entities: true
 slots:
+  PERSON:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   duration:
     auto_fill: true
     initial_value: null
@@ -42,19 +70,24 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
-  username:
-    auto_fill: true
-    initial_value: null
-    type: rasa_core.slots.TextSlot
 templates:
-  ask_name:
-  - text: What should I call you dear?
-  - text: May I know your sweet name?
+  utter_affirm:
+  - text: Alright!
+  - text: Nice!
+  - text: Okay :)
+  - text: Cool
+  utter_ask_abt_day:
+  - text: How are you doing?
+  utter_ask_motivation:
+  - text: Do you need any motivation?
   utter_ask_problem:
   - text: What do you feel right now?
+  - text: What is bothering you?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
+  utter_chit_chat:
+  - text: What are you doing now?
   utter_console:
   - text: It's okay dear... This too shall pass
   - text: I know this is tough... But every problem has a solution
@@ -67,8 +100,29 @@ templates:
   - text: Tata.. Take care pal
   - text: Bye.. I will miss you
   utter_greet:
-  - text: Hello! I am Quinn...
+  - text: Hello! ...
   - text: Hey!!! What's up?
   - text: Hollaa!! Happy to see you today
   utter_happy:
   - text: Great carry on!
+  utter_lonely_response:
+  - text: I know it’s hard to see this right now, but it’s only temporary… Things
+      will change. You won’t feel this way forever. Look to that day.
+  - text: I’m here for you.Things will definitely get better. Stay enagaged
+  - text: You're not alone.
+  - text: This is not your fault. I can always change your mindset
+  - text: You are not alone dear.... I'm here for you. Don't worry..
+  utter_motivation:
+  - text: url:"https://www.youtube.com/watch?v=akjeulQqzYc"
+  - text: url:"https://www.youtube.com/watch?v=28U0m-66LI4"
+  utter_positive:
+  - text: No worries, I'm glad you are here :D
+  - text: All is well!!
+  - text: I am so happy that you are here
+  utter_share_positivity:
+  - text: I've got something I want to tell you today
+  utter_suggest_music:
+  - text: Would like to hear some good music?
+  utter_welcome:
+  - text: You're welcome
+  - text: Never Mention Dear!!

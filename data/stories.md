@@ -1,65 +1,104 @@
 ##story 1
 *  greet
-	- utter_ask_name
-*  intro
 	- utter_greet
 ## story 2
 * goodbye
 	- utter_goodbye
 ##story 3
-* user_question
-	- utter_console
-##story 4
-* user_input
+* mood_unhappy
 	- utter_ask_problem
+##story 4
+* motivation
+	- utter_motivation
 	
 ##story 5
-
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* mood_affirm
-  - utter_happy
-
-
-## Generated Story 0
-*  greet
-	- utter_ask_name
-*  intro
-	- utter_greet
-
-## Generated Story -4474326349125042510
-* user_input{"problem": "unhappy"}
-    - slot{"problem": "unhappy"}
-    - utter_ask_problem
-* user_question
-    - action_restart
-
-## Generated Story 5649544396524466680
-* user_input
-    - utter_ask_problem
-* user_question
-    - utter_console
-
-## Generated Story 311758365160320290
-* user_question
-    - utter_console
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7737292668415394341
-* greet
-    - utter_ask_name
-* intro{"PERSON": "Sanu"}
-    - slot{"PERSON": "Sanu"}
-    - utter_greet
 * gratitude
-    - utter_ask_abt_day
-* mood_happy
+    - utter_welcome
+##story 6
+* suicide
+    - sendmail
+	
+## Generated Story -7799376897993237984
+* greet
+    - utter_greet
+* mood_affirm
     - utter_ask_abt_day
 * mood_happy
     - utter_happy
+
+## Generated Story 2757319530319316153
+* greet
+    - utter_greet
+* mood_solitude
+    - utter_share_positivity
+* intro
+
+## Generated Story -3548109444314162666
+* greet
+    - utter_greet
+* gratitude
+    - utter_welcome
 * goodbye
     - utter_goodbye
+
+## Generated Story 7108440097121274325
+* greet
+    - utter_greet
+* mood_happy
+    - utter_happy
+* gratitude
+    - utter_welcome
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2607861055092511797
+* greet
+    - utter_greet
+* mood_solitude
+    - utter_share_positivity
+* gratitude
+    - utter_welcome
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4680065773273534619
+* motivation
+    - utter_motivation
+
+## Generated Story 808494233511688186
+* greet
+    - utter_greet
+    - utter_ask_abt_day
+* mood_happy
+    - utter_happy
+* gratitude
+    - utter_welcome
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7099032984709684513
+* greet
+    - utter_greet
+* mood_idle
+    - utter_share_positivity
+* mood_affirm
+    - utter_ask_motivation
+* mood_affirm
+    - utter_motivation
+    - utter_did_that_help
+* mood_affirm
+    - utter_happy
+* gratitude
+    - utter_welcome
+* needing_to_go
+    - utter_goodbye
+
+## Generated Story 1064392815602251391
+* greet
+    - utter_greet
+* mood_unhappy
+    - utter_ask_problem
+* mood_solitude
+    - utter_console
 * mood_affirm
 
