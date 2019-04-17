@@ -5,7 +5,8 @@ slots:
     type: text
   PERSON:
     type: text
-
+  date:
+    type: text
 
 intents:
     - greet
@@ -32,10 +33,12 @@ entities:
     - problem
     - duration
     - PERSON
+    - date
 
  
 templates:
-  
+  utter_explain_more:
+    - Well.. I am listening to you.. But can you just explain it a bit more?
   utter_greet:
     - Hello! ...
     - Hey!!! What's up?
@@ -112,11 +115,22 @@ templates:
         url:"https://www.youtube.com/watch?v=fiutY4ojZUQ"
     
   utter_share_positivity:
-    - I've got something I want to tell you today.
+    - I've got something I want to tell you today. Would you like to hear?
   utter_love:
     - Quinn loves everyone :):)
-
+   utter_what_music:
+    - What kind of music do you like?
+    - Which is your favorite music genre?
+    
+   utter_appoinment:
+    - Do you require an appoinment with your doctor?
+   utter_ask_date:
+    - When do need the appointment? Mention the date in(dd/mm/yyy) format
+  
 actions:
+    - utter_appoinment
+    - utter_ask_date
+    - utter_what_music
     - utter_lonely_response
     - utter_greet
     - utter_goodbye

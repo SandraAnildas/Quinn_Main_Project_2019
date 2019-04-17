@@ -1,3 +1,8 @@
+## intent:cant_sleep
+- I feel sleepless
+- I havent slept for the past [2 days](duration)
+- I am not able to sleep for the past [3 days](duration)
+
 ## intent:goodbye
 - ok then.. bye dear
 - ok then bye
@@ -37,6 +42,7 @@
 - heelloo
 - hey quinn
 - hiii
+- hey
 
 ## intent:intro
 - [Meena](PERSON)
@@ -50,6 +56,9 @@
 - yes i think i need
 - yes it did
 - hmm
+- yeah
+- es
+yes
 
 ## intent:mood_happy
 - I am doing good
@@ -67,9 +76,12 @@
 ## intent:mood_unhappy
 - Nothing much dear
 - I feel so sad quinn
+- I feel very sad today
+- I am fed up with my life
 
 ## intent:motivation
 - I need motivation yaar
 
-## intent:needing_to_go
-- well it is time for me to go
+
+## intent:suicide
+- I dont want to live

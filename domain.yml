@@ -1,32 +1,34 @@
 %YAML 1.1
 ---
 actions:
-- utter_cheer_up
-- utter_affirm
-- utter_console
-- utter_did_that_help
-- utter_happy
-- utter_ask_abt_day
 - utter_share_positivity
-- utter_greet
-- utter_goodbye
-- utter_ask_problem
-- utter_positive
-- utter_motivation
-- utter_chit_chat
-- sendmail
-- utter_ask_motivation
+- utter_ask_abt_day
 - utter_welcome
+- sendmail
+- utter_lonely_response
+- utter_goodbye
+- utter_affirm
+- utter_motivation
+- utter_greet
 - utter_suggest_music
+- utter_ask_motivation
+- utter_cheer_up
+- utter_happy
+- utter_love
+- utter_console
+- utter_chit_chat
+- utter_ask_problem
+- utter_did_that_help
+- utter_positive
 entities:
 - problem
 - duration
 - PERSON
 intents:
-- mood_affirm
-- mood_solitude
-- greet
+- suicide
 - mood_unhappy
+- greet
+- mood_affirm
 - intro
 - goodbye
 - user_input
@@ -37,10 +39,10 @@ intents:
 - cant_sleep
 - headache
 - gratitude
-- suicide
 - failure_thoughts
 - guilty
 - motivation
+- mood_solitude
 slots:
   PERSON:
     type: text
@@ -62,6 +64,7 @@ templates:
   utter_ask_problem:
   - text: What do you feel right now?
   - text: What is bothering you?
+  - text: Do you have anything to tell me?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
@@ -103,7 +106,7 @@ templates:
   - text: All is well!!
   - text: I am so happy that you are here
   utter_share_positivity:
-  - text: I've got something I want to tell you today
+  - text: I've got something I want to tell you today.
   utter_suggest_music:
   - text: Would like to hear some good music?
   utter_welcome:
