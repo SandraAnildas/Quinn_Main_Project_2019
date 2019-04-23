@@ -1,0 +1,541 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "25/04/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "25/04/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "25/06/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "on 25/06/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "25/06/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "i need the appointment on 25/06/2019"
+      },
+      {
+        "intent": "appointment",
+        "text": "I need n appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "Quinn.. I need an appointment with my doc"
+      },
+      {
+        "intent": "appointment",
+        "text": "hey quinn i need to book an aoointment with my doctor"
+      },
+      {
+        "intent": "cant_sleep",
+        "text": "I feel sleepless"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "2 days",
+            "entity": "duration"
+          }
+        ],
+        "text": "I havent slept for the past 2 days"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "3 days",
+            "entity": "duration"
+          }
+        ],
+        "text": "I am not able to sleep for the past 3 days"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok then.. bye dear"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok then bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok then bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bubye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Welll thats it.. see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "tata tc gtg"
+      },
+      {
+        "intent": "goodbye",
+        "text": "gtg bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "gtg"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanks dear"
+      },
+      {
+        "intent": "gratitude",
+        "text": "Thank you so much for being there"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thats fine..thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thnx Quinn"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you for being there quinn"
+      },
+      {
+        "intent": "gratitude",
+        "text": "yup..thanks quinn"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thnx"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thnx quinn"
+      },
+      {
+        "intent": "gratitude",
+        "text": "nice video quinn....thanks"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you dear"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanks"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thnks"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thNKS"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you quinn"
+      },
+      {
+        "intent": "greet",
+        "text": "heylo"
+      },
+      {
+        "intent": "greet",
+        "text": "helloo"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "heelloo"
+      },
+      {
+        "intent": "greet",
+        "text": "hey quinn"
+      },
+      {
+        "intent": "greet",
+        "text": "hiii"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Meena",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Meena"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Neena",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I am Neena"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "hey"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yes it did.. thank you dear"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "same here"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "tell me quinn"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yes i think i need"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yes it did"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "hmm"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "es"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "hmm"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "ya"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "will try that"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yup"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yess it did"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I dont know"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "nooo"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I am doing good"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "It was fine"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I want to live"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I love my life"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I jsut love my life"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I want to live this life"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I want to live"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I want to live"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I want to live"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I feel so motivated today"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "ya i will do that"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "great"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I feel so happy today quinn"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I dont feel lonely today"
+      },
+      {
+        "intent": "mood_idle",
+        "text": "Nothing much"
+      },
+      {
+        "intent": "mood_idle",
+        "text": "I do not feel like doing anything"
+      },
+      {
+        "intent": "mood_idle",
+        "text": "I feel idle"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I feel lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I feel sad and lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I feel lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I feel lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "i feel lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "i feel lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I feel lonelyyyy"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I am alone"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "i am alone"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "i m lone"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "Nothing much dear"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I feel so sad quinn"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I feel very sad today"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am fed up with my life"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am sad quinn"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "i feel so sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I feel sad"
+      },
+      {
+        "intent": "motivation",
+        "text": "I need motivation yaar"
+      },
+      {
+        "intent": "motivation",
+        "text": "hey quin can you just motivate me?"
+      },
+      {
+        "intent": "suicide",
+        "text": "I dont want to live"
+      },
+      {
+        "intent": "suicide",
+        "text": "I need to suicide quinn"
+      },
+      {
+        "intent": "suicide",
+        "text": "I quit from life.. I dont want to live anymore"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

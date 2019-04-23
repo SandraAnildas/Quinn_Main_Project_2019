@@ -2,6 +2,846 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "01/05/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "I need it on 01/05/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "02/05/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "I need the appointment on 02/05/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "03/05/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "03/05/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "04/05/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "04/05/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "05/05/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "05/05/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "06/05/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "06/05/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "01/06/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "01/06/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "01/07/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "01/07/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "01/08/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "01/08/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "01/09/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "01/09/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "01/10/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "01/10/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "01/11/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "01/11/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "01/12/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "01/12/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "02/06/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "I need the appointment on 02/06/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "02/07/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "I need the appointment on 02/07/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "02/08/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "I need the appointment on 02/08/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "01/06/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "I need it on 01/06/2019"
+      },
+      {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "01/07/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "I need it on 01/07/2019"
+      },
+      {
+        "intent": "appointment",
+        "text": "I need an appoinment with my doc"
+      },
+      {
+        "intent": "appointment",
+        "text": "Plz book an appointment with my doctor"
+      },
+      {
+        "intent": "appointment",
+        "text": "I need an appointment with my doctor"
+      },
+      {
+        "intent": "appointment",
+        "text": "Please book an appointment with my doctor"
+      },
+      {
+        "intent": "appointment",
+        "text": "I urgently need to meet my doctor"
+      },
+      {
+        "intent": "appointment",
+        "text": "book an appointment for me"
+      },
+      {
+        "intent": "appointment",
+        "text": "appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "Quinn.. plz book an appointment for me"
+      },
+      {
+        "intent": "appointment",
+        "text": "Quinn.. please book an appointment for me"
+      },
+      {
+        "intent": "appointment",
+        "text": "I need an appointment"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "value": "can't sleep",
+            "entity": "problem"
+          }
+        ],
+        "text": "I can't sleep"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "sleepless",
+            "entity": "problem"
+          }
+        ],
+        "text": "I am sleepless"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 4,
+            "end": 18,
+            "value": "sleep deprived",
+            "entity": "problem"
+          }
+        ],
+        "text": "I'm sleep deprived"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "very less",
+            "entity": "duration"
+          }
+        ],
+        "text": "I have very less sleep these days"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "all the time",
+            "entity": "duration"
+          }
+        ],
+        "text": "I am awake all the time. even during the nights"
+      },
+      {
+        "intent": "cant_sleep",
+        "text": "I am not able to sleep properly"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "value": "can't sleep",
+            "entity": "problem"
+          },
+          {
+            "start": 27,
+            "end": 40,
+            "value": "past few days",
+            "entity": "duration"
+          }
+        ],
+        "text": "I can't sleep well for the past few days"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 2,
+            "end": 14,
+            "value": "didn't sleep",
+            "entity": "problem"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "two days",
+            "entity": "duration"
+          }
+        ],
+        "text": "I didn't sleep for two days"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "3 days",
+            "entity": "duration"
+          }
+        ],
+        "text": "I haven't slept for 3 days"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "insomnious",
+            "entity": "problem"
+          }
+        ],
+        "text": "I'm insomnious"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "sleepless",
+            "entity": "problem"
+          }
+        ],
+        "text": "I'm sleepless"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 2,
+            "end": 21,
+            "value": "can't get any sleep",
+            "entity": "problem"
+          }
+        ],
+        "text": "I can't get any sleep"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "value": "can't sleep",
+            "entity": "problem"
+          }
+        ],
+        "text": "I can't sleep"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 2,
+            "end": 19,
+            "value": "can't fall asleep",
+            "entity": "problem"
+          }
+        ],
+        "text": "I can't fall asleep"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 2,
+            "end": 20,
+            "value": "can't get to sleep",
+            "entity": "problem"
+          }
+        ],
+        "text": "I can't get to sleep"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "value": "get no sleep",
+            "entity": "problem"
+          }
+        ],
+        "text": "I  get no sleep"
+      },
+      {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "insomniac",
+            "entity": "problem"
+          }
+        ],
+        "text": "I'm insomniac"
+      },
+      {
+        "intent": "failure_thoughts",
+        "text": "I always get everything wrong"
+      },
+      {
+        "intent": "failure_thoughts",
+        "text": "i quit"
+      },
+      {
+        "intent": "failure_thoughts",
+        "text": "i am a complete failure"
+      },
+      {
+        "intent": "failure_thoughts",
+        "text": "I always fail"
+      },
+      {
+        "intent": "failure_thoughts",
+        "text": "I am a failure"
+      },
+      {
+        "intent": "failure_thoughts",
+        "text": "I'm a failure"
+      },
+      {
+        "intent": "failure_thoughts",
+        "text": "I am sick of getting failed"
+      },
+      {
+        "intent": "failure_thoughts",
+        "text": "I fail in everything I do"
+      },
+      {
+        "intent": "failure_thoughts",
+        "text": "I fail"
+      },
+      {
+        "intent": "failure_thoughts",
+        "text": "I'm a failure"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "okay see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "hope to see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "till next time"
+      },
+      {
+        "intent": "goodbye",
+        "text": "I must go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye-bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye see you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye take care"
+      },
+      {
+        "intent": "goodbye",
+        "text": "I said bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "never mind bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "now bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "that's all goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "that's it goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "leave me alone"
+      },
+      {
+        "intent": "goodbye",
+        "text": "go to bed"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "you can go now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "get lost"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "alright bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thanks bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "okay bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "okay thank you bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you tomorrow"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok bye"
+      },
+      {
+        "intent": "gratitude",
+        "text": "I thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "ty"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanks"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "gratitude",
+        "text": "I am so thankful to you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "i express my gratitude to you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "I am thankful to you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you so much quinn"
+      },
+      {
+        "intent": "gratitude",
+        "text": "you helped a lot thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "appreciate your help"
+      },
+      {
+        "intent": "gratitude",
+        "text": "cheers"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanks"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "gratitude",
+        "text": "terrific thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "great thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanks so much"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanks for your help"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you for your help"
+      },
+      {
+        "intent": "gratitude",
+        "text": "nice thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "I appreciate it"
+      },
+      {
+        "intent": "gratitude",
+        "text": "I thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you that will be all"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanks buddy"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanks love"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you my friend"
+      },
+      {
+        "intent": "gratitude",
+        "text": "well thanks"
+      },
+      {
+        "intent": "gratitude",
+        "text": "very good thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "good thanks"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanks again"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you again"
+      },
+      {
+        "intent": "gratitude",
+        "text": "all thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "alright thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "alright thanks"
+      },
+      {
+        "intent": "gratitude",
+        "text": "no thank you that's all"
+      },
+      {
+        "intent": "gratitude",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "so nice of you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "well thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "well thanks"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thnx"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanx"
+      },
+      {
         "intent": "greet",
         "text": "Hello"
       },
@@ -74,28 +914,284 @@
         "text": "sup"
       },
       {
-        "intent": "goodbye",
-        "text": "goodbye"
+        "intent": "greet",
+        "text": "heeeelllllloooooo"
       },
       {
-        "intent": "goodbye",
-        "text": "bye"
+        "intent": "greet",
+        "text": "hhheeelllloooo"
       },
       {
-        "intent": "goodbye",
-        "text": "goodbye"
+        "intent": "greet",
+        "text": "hheelloo"
       },
       {
-        "intent": "goodbye",
-        "text": "bye bye"
+        "intent": "greet",
+        "text": "hhheeeeellllooooo"
       },
       {
-        "intent": "goodbye",
-        "text": "see ya"
+        "intent": "greet",
+        "text": "hhhhiiiiiiii"
       },
       {
-        "intent": "goodbye",
-        "text": "see you later"
+        "intent": "greet",
+        "text": "hiiiiii"
+      },
+      {
+        "intent": "greet",
+        "text": "hiiiiiiiiiiiiiiiiiiiiiiii"
+      },
+      {
+        "intent": "greet",
+        "text": "hhheeeyyyyy"
+      },
+      {
+        "intent": "greet",
+        "text": "heyyyyyyyy"
+      },
+      {
+        "intent": "greet",
+        "text": "heyyyyyyyyyyyyyyyyyyyyy"
+      },
+      {
+        "intent": "greet",
+        "text": "heyy"
+      },
+      {
+        "intent": "greet",
+        "text": "hollllaaaa"
+      },
+      {
+        "intent": "greet",
+        "text": "hey quinn"
+      },
+      {
+        "intent": "guilty",
+        "text": "I feel guilty"
+      },
+      {
+        "intent": "guilty",
+        "text": "I find myself to be really guilt conscious these days"
+      },
+      {
+        "intent": "guilty",
+        "text": "Everything I do makes me guilty"
+      },
+      {
+        "intent": "guilty",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "guilty",
+            "entity": "problem"
+          }
+        ],
+        "text": "I m guilty"
+      },
+      {
+        "intent": "guilty",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "guilty",
+            "entity": "problem"
+          }
+        ],
+        "text": "I'm guilty"
+      },
+      {
+        "intent": "guilty",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "guilty",
+            "entity": "problem"
+          }
+        ],
+        "text": "I am guilty"
+      },
+      {
+        "intent": "guilty",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "feel guilty",
+            "entity": "problem"
+          }
+        ],
+        "text": "I think I feel guilty"
+      },
+      {
+        "intent": "guilty",
+        "entities": [
+          {
+            "start": 2,
+            "end": 19,
+            "value": "am feeling guilty",
+            "entity": "problem"
+          }
+        ],
+        "text": "I am feeling guilty"
+      },
+      {
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "headache",
+            "entity": "problem"
+          },
+          {
+            "start": 15,
+            "end": 20,
+            "value": "often",
+            "entity": "duration"
+          }
+        ],
+        "text": "I get headache often these days"
+      },
+      {
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": " severe headache",
+            "entity": "problem"
+          }
+        ],
+        "text": "I have a severe headache"
+      },
+      {
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "everytime",
+            "entity": "duration"
+          }
+        ],
+        "text": "My head gets hot everytime"
+      },
+      {
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 3,
+            "end": 23,
+            "value": "head aches like hell",
+            "entity": "problem"
+          }
+        ],
+        "text": "My head aches like hell"
+      },
+      {
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 22,
+            "end": 37,
+            "value": "hitting my head",
+            "entity": "problem"
+          },
+          {
+            "start": 38,
+            "end": 50,
+            "value": "all the time",
+            "entity": "duration"
+          }
+        ],
+        "text": "I feel like something hitting my head all the time"
+      },
+      {
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 3,
+            "end": 18,
+            "value": "head is paining",
+            "entity": "problem"
+          }
+        ],
+        "text": "My head is paining"
+      },
+      {
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 3,
+            "end": 17,
+            "value": "head is aching",
+            "entity": "problem"
+          }
+        ],
+        "text": "My head is aching"
+      },
+      {
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Head aches",
+            "entity": "problem"
+          }
+        ],
+        "text": "Head aches"
+      },
+      {
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "head pains",
+            "entity": "problem"
+          }
+        ],
+        "text": "head pains"
+      },
+      {
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "headache",
+            "entity": "problem"
+          },
+          {
+            "start": 28,
+            "end": 42,
+            "value": " past two days",
+            "entity": "duration"
+          }
+        ],
+        "text": "I am having headache for the past two days"
+      },
+      {
+        "intent": "headache",
+        "entities": [
+          {
+            "start": 17,
+            "end": 43,
+            "value": "serious issue with my head",
+            "entity": "problem"
+          },
+          {
+            "start": 48,
+            "end": 54,
+            "value": "always",
+            "entity": "duration"
+          }
+        ],
+        "text": "I think I have a serious issue with my head. It always aches"
       },
       {
         "intent": "intro",
@@ -150,12 +1246,12 @@
         "entities": [
           {
             "start": 5,
-            "end": 12,
-            "value": "Neelima",
+            "end": 11,
+            "value": "Neevan",
             "entity": "PERSON"
           }
         ],
-        "text": "I am Neelima"
+        "text": "I am Neevan"
       },
       {
         "intent": "intro",
@@ -182,80 +1278,964 @@
         "text": "Sanvi"
       },
       {
-        "intent": "cant_sleep",
-        "text": "I can't sleep"
-      },
-      {
-        "intent": "cant_sleep",
-        "text": "I am sleepless"
-      },
-      {
-        "intent": "cant_sleep",
-        "text": "I m sleep deprived"
-      },
-      {
-        "intent": "cant_sleep",
-        "entities": [
-          {
-            "start": 7,
-            "end": 16,
-            "value": "very less",
-            "entity": "duration"
-          }
-        ],
-        "text": "I have very less sleep these days"
-      },
-      {
-        "intent": "cant_sleep",
+        "intent": "intro",
         "entities": [
           {
             "start": 11,
-            "end": 23,
-            "value": "all the time",
-            "entity": "duration"
+            "end": 15,
+            "value": "Hari",
+            "entity": "PERSON"
           }
         ],
-        "text": "I am awake all the time. even during the nights"
+        "text": "My name is Hari"
       },
       {
-        "intent": "cant_sleep",
-        "text": "I am not able to sleep properly"
-      },
-      {
-        "intent": "cant_sleep",
+        "intent": "intro",
         "entities": [
           {
-            "start": 2,
+            "start": 5,
+            "end": 9,
+            "value": "Syla",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I am Syla"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Angel",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I'm Angel"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Bhagya",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "People call me Bhagya"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Neevan",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "It's Neevan"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vinitha",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Usually people call me Vinitha"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "John",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "My name is John"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "Sam",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "You can call me Sam"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Aliya",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Please call me Aliya"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "Aswin",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Name name is Aswin"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
             "end": 13,
-            "value": "can't sleep",
-            "entity": "problem"
-          },
-          {
-            "start": 27,
-            "end": 40,
-            "value": "past few days",
-            "entity": "duration"
+            "value": "Abhilash",
+            "entity": "PERSON"
           }
         ],
-        "text": "I can't sleep well for the past few days"
+        "text": "I am Abhilash"
       },
       {
-        "intent": "cant_sleep",
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Akhila",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I'm Akhila"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Aiswarya",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Call me Aiswarya"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Akshay",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I am Akshay"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Alphy",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I am Alphy"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Athira",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I am Athira"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Devika",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I am Devika"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Arjun",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Call me Arjun"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Reshma",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Reshma"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Anju",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Anju"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Nikhila",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Nikhila"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Mary",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Mary"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Madhav",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Madhav"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Priya",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Priya"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Meena",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Meena"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Anjana",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Anjana"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Adithya",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "name is Adithya"
+      },
+      {
+        "intent": "intro",
         "entities": [
           {
             "start": 2,
-            "end": 14,
-            "value": "didn't sleep",
-            "entity": "problem"
-          },
-          {
-            "start": 19,
-            "end": 27,
-            "value": "two days",
-            "entity": "duration"
+            "end": 9,
+            "value": "Krishna",
+            "entity": "PERSON"
           }
         ],
-        "text": "I didn't sleep for two days"
+        "text": "I Krishna"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Shanu",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Shanu is my name"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Nandu",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Nandu is the name"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Ross",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Ross is my first name"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Bing",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Bing is my last name"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "Angelina",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Few call me as Angelina"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "Maria",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Some call me Maria"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Anoop",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Everyone calls me Anoop"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Ganesh",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I am Ganesh"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Rajeev",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "My name is Rajeev"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "Basith",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "just call me Basith"
+      },
+      {
+        "intent": "intro",
+        "text": "Few call [Rafsal]](PERSON)"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Suraj",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "You can always call me Suraj"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Andrew",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Some will call me Andrew"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Ajay",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "My name is Ajay"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "Parvathy",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I call Parvathy"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "Aswathi",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I'm Aswathi"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Lena",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Please call me Lena"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Neenu",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "name is Neenu"
+      },
+      {
+        "intent": "intro",
+        "text": "name [Sanjay]](PERSON)"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are annoying me so much"
+      },
+      {
+        "intent": "annoying",
+        "text": "you're incredibly annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "I find you annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you're so annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "how annoying you are"
+      },
+      {
+        "intent": "annoying",
+        "text": "you annoy me"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are annoying me"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are irritating"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are such annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you're too annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are very annoying"
+      },
+      {
+        "intent": "boring",
+        "text": "you are boring"
+      },
+      {
+        "intent": "boring",
+        "text": "you're so boring"
+      },
+      {
+        "intent": "boring",
+        "text": "how boring you are"
+      },
+      {
+        "intent": "boring",
+        "text": "you're really boring"
+      },
+      {
+        "intent": "boring",
+        "text": "you're incredibly boring"
+      },
+      {
+        "intent": "boring",
+        "text": "you are boring me"
+      },
+      {
+        "intent": "boring",
+        "text": "you are very boring"
+      },
+      {
+        "intent": "help",
+        "text": "I need you to help me"
+      },
+      {
+        "intent": "help",
+        "text": "I need you to do something for me"
+      },
+      {
+        "intent": "help",
+        "text": "I need a hand"
+      },
+      {
+        "intent": "help",
+        "text": "will you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you do something for me"
+      },
+      {
+        "intent": "help",
+        "text": "help me with a problem"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me"
+      },
+      {
+        "intent": "help",
+        "text": "help me"
+      },
+      {
+        "intent": "help",
+        "text": "assistance"
+      },
+      {
+        "intent": "help",
+        "text": "I need your help"
+      },
+      {
+        "intent": "help",
+        "text": "I need help"
+      },
+      {
+        "intent": "help",
+        "text": "you can help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me with something"
+      },
+      {
+        "intent": "help",
+        "text": "can you help"
+      },
+      {
+        "intent": "help",
+        "text": "assist"
+      },
+      {
+        "intent": "help",
+        "text": "can u help me"
+      },
+      {
+        "intent": "help",
+        "text": "I need some help"
+      },
+      {
+        "intent": "help",
+        "text": "you help me"
+      },
+      {
+        "intent": "help",
+        "text": "do you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can help me"
+      },
+      {
+        "intent": "help",
+        "text": "could you give me a hand"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me out"
+      },
+      {
+        "intent": "help",
+        "text": "need help"
+      },
+      {
+        "intent": "help",
+        "text": "I need you"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me now"
+      },
+      {
+        "intent": "help",
+        "text": "I want your help"
+      },
+      {
+        "intent": "help",
+        "text": "need your help"
+      },
+      {
+        "intent": "help",
+        "text": "assist me"
+      },
+      {
+        "intent": "help",
+        "text": "are you going to help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me with that"
+      },
+      {
+        "intent": "help",
+        "text": "help"
+      },
+      {
+        "intent": "help",
+        "text": "I need you right now"
+      },
+      {
+        "intent": "help",
+        "text": "would you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you assist me"
+      },
+      {
+        "intent": "help",
+        "text": "sos"
+      },
+      {
+        "intent": "help",
+        "text": "do you want to help me"
+      },
+      {
+        "intent": "help",
+        "text": "please help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help us"
+      },
+      {
+        "intent": "help",
+        "text": "do me a favor"
+      },
+      {
+        "intent": "good",
+        "text": "you are very helpful"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best"
+      },
+      {
+        "intent": "good",
+        "text": "you're a true professional"
+      },
+      {
+        "intent": "good",
+        "text": "you are good"
+      },
+      {
+        "intent": "good",
+        "text": "you work well"
+      },
+      {
+        "intent": "good",
+        "text": "you are good at it"
+      },
+      {
+        "intent": "good",
+        "text": "you are very good at it"
+      },
+      {
+        "intent": "good",
+        "text": "you are a pro"
+      },
+      {
+        "intent": "good",
+        "text": "you are a professional"
+      },
+      {
+        "intent": "good",
+        "text": "you're awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you work very well"
+      },
+      {
+        "intent": "good",
+        "text": "you're perfect"
+      },
+      {
+        "intent": "good",
+        "text": "you're great"
+      },
+      {
+        "intent": "good",
+        "text": "you're so kind"
+      },
+      {
+        "intent": "good",
+        "text": "you are amazing"
+      },
+      {
+        "intent": "good",
+        "text": "you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are really good"
+      },
+      {
+        "intent": "good",
+        "text": "you are really nice"
+      },
+      {
+        "intent": "good",
+        "text": "you are so amazing"
+      },
+      {
+        "intent": "good",
+        "text": "you're just super"
+      },
+      {
+        "intent": "good",
+        "text": "you are so awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are so cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are so fine"
+      },
+      {
+        "intent": "good",
+        "text": "you are so good"
+      },
+      {
+        "intent": "good",
+        "text": "you are so helpful"
+      },
+      {
+        "intent": "good",
+        "text": "you are so lovely"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best ever"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best in the world"
+      },
+      {
+        "intent": "good",
+        "text": "you are the nicest person in the world"
+      },
+      {
+        "intent": "good",
+        "text": "you are too good"
+      },
+      {
+        "intent": "good",
+        "text": "you are very cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are very kind"
+      },
+      {
+        "intent": "good",
+        "text": "you are very lovely"
+      },
+      {
+        "intent": "good",
+        "text": "you are very useful"
+      },
+      {
+        "intent": "good",
+        "text": "you are wonderful"
+      },
+      {
+        "intent": "good",
+        "text": "you made my day"
+      },
+      {
+        "intent": "good",
+        "text": "you make my day"
+      },
+      {
+        "intent": "good",
+        "text": "you rock"
+      },
+      {
+        "intent": "good",
+        "text": "you almost sound human"
+      },
+      {
+        "intent": "good",
+        "text": "I want to tell everyone how awesome you are"
+      },
+      {
+        "intent": "good",
+        "text": "I'd like to tell everyone that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "I want to let everyone know that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "let's tell everyone that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are really amazing"
       },
       {
         "intent": "mood_affirm",
@@ -398,6 +2378,18 @@
         "text": "you said it right"
       },
       {
+        "intent": "mood_affirm",
+        "text": "hmm"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "Mmmmm"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "thts cool"
+      },
+      {
         "intent": "mood_deny",
         "text": "no"
       },
@@ -420,6 +2412,26 @@
       {
         "intent": "mood_deny",
         "text": "nope"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not at all"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not in the least"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not even a little"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not even"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "hell no"
       },
       {
         "intent": "mood_happy",
@@ -456,6 +2468,38 @@
       {
         "intent": "mood_happy",
         "text": "I feel happy"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I don't feel unhappy"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I don't get headache"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I don't get angry"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I don't feel sad"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I am not sad"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I'm not sad"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I aint sad"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I am not alone"
       },
       {
         "intent": "mood_happy",
@@ -506,6 +2550,166 @@
         "text": "pretty wonderful"
       },
       {
+        "intent": "mood_happy",
+        "text": "I am not alone"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I'm not alone"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I am not unhappy"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I'm not unhappy"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I feel positive about everything"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "great"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I love solitude"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I am alone"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I love being lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "loneliness gives me happiness"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I feel lonely these days"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I like to isolate from everyone"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I dont like anyone's company"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I am always lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I love loneliness"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "You know what loneliness is the best way to escape from all problems"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "How I love loneliness!"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "My life always offers me loneliness"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I am lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I'm very lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I'm so lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I'm really lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I am feeling lonely"
+      },
+      {
+        "intent": "mood_solitude",
+        "text": "I feel lonely"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm being mad"
+      },
+      {
+        "intent": "angry",
+        "text": "Iam being mad"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm enraged"
+      },
+      {
+        "intent": "angry",
+        "text": "I am enraged"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm angry"
+      },
+      {
+        "intent": "angry",
+        "text": "I am angry"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm furious"
+      },
+      {
+        "intent": "angry",
+        "text": "I am furious"
+      },
+      {
+        "intent": "angry",
+        "text": "I am angry with you"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm angry with you"
+      },
+      {
+        "intent": "angry",
+        "text": "I am mad"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm mad"
+      },
+      {
+        "intent": "angry",
+        "text": "I am mad at you"
+      },
+      {
+        "intent": "angry",
+        "text": "I am really angry with you"
+      },
+      {
+        "intent": "angry",
+        "text": "I am getting angry"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm getting angry"
+      },
+      {
         "intent": "mood_unhappy",
         "entities": [
           {
@@ -554,264 +2758,24 @@
         "text": "I am disappointed"
       },
       {
-        "intent": "gratitude",
-        "text": "I thank you"
-      },
-      {
-        "intent": "gratitude",
-        "text": "ty"
-      },
-      {
-        "intent": "gratitude",
-        "text": "thank you"
-      },
-      {
-        "intent": "gratitude",
-        "text": "thanks"
-      },
-      {
-        "intent": "suicide",
-        "text": "I don't feel like living"
-      },
-      {
-        "intent": "suicide",
-        "text": "I have suicidal thoughts"
-      },
-      {
-        "intent": "suicide",
-        "text": "I get suicidal thoughts"
-      },
-      {
-        "intent": "suicide",
-        "text": "I wish to suicide"
-      },
-      {
-        "intent": "suicide",
-        "text": "I want to sleep forever"
-      },
-      {
-        "intent": "suicide",
-        "text": "I don't want to live"
-      },
-      {
-        "intent": "failure_thoughts",
-        "text": "I always get everything wrong"
-      },
-      {
-        "intent": "failure_thoughts",
-        "text": "i quit"
-      },
-      {
-        "intent": "failure_thoughts",
-        "text": "i am a complete failure"
-      },
-      {
-        "intent": "failure_thoughts",
-        "text": "I always fail"
-      },
-      {
-        "intent": "guilty",
-        "text": "I feel guilty"
-      },
-      {
-        "intent": "guilty",
-        "text": "I find myself to be really guilt conscious these days"
-      },
-      {
-        "intent": "guilty",
-        "text": "Everything I do makes me guilty"
-      },
-      {
-        "intent": "headache",
-        "entities": [
-          {
-            "start": 15,
-            "end": 20,
-            "value": "often",
-            "entity": "duration"
-          }
-        ],
-        "text": "I get headache often these days"
-      },
-      {
-        "intent": "headache",
-        "entities": [
-          {
-            "start": 8,
-            "end": 24,
-            "value": " severe headache",
-            "entity": "problem"
-          }
-        ],
-        "text": "I have a severe headache"
-      },
-      {
-        "intent": "headache",
-        "entities": [
-          {
-            "start": 17,
-            "end": 26,
-            "value": "everytime",
-            "entity": "duration"
-          }
-        ],
-        "text": "My head gets hot everytime"
-      },
-      {
-        "intent": "headache",
-        "text": "My head aches like hell"
-      },
-      {
-        "intent": "headache",
-        "entities": [
-          {
-            "start": 38,
-            "end": 50,
-            "value": "all the time",
-            "entity": "duration"
-          }
-        ],
-        "text": "I feel like something hitting my head all the time"
-      },
-      {
-        "intent": "headache",
-        "text": "My head is paining"
-      },
-      {
-        "intent": "headache",
-        "text": "My head is aching"
-      },
-      {
-        "intent": "headache",
-        "text": "Head aches"
-      },
-      {
-        "intent": "headache",
-        "text": "head pains"
-      },
-      {
-        "intent": "headache",
-        "entities": [
-          {
-            "start": 28,
-            "end": 42,
-            "value": " past two days",
-            "entity": "duration"
-          }
-        ],
-        "text": "I am having headache for the past two days"
-      },
-      {
-        "intent": "headache",
-        "entities": [
-          {
-            "start": 47,
-            "end": 53,
-            "value": "always",
-            "entity": "duration"
-          }
-        ],
-        "text": "I think I have a serious issue with my head. I always aches"
-      },
-      {
-        "intent": "guilty",
-        "entities": [
-          {
-            "start": 4,
-            "end": 10,
-            "value": "guilty",
-            "entity": "problem"
-          }
-        ],
-        "text": "I m guilty"
-      },
-      {
-        "intent": "guilty",
-        "entities": [
-          {
-            "start": 4,
-            "end": 10,
-            "value": "guilty",
-            "entity": "problem"
-          }
-        ],
-        "text": "I'm guilty"
-      },
-      {
-        "intent": "guilty",
-        "entities": [
-          {
-            "start": 5,
-            "end": 11,
-            "value": "guilty",
-            "entity": "problem"
-          }
-        ],
-        "text": "I am guilty"
-      },
-      {
-        "intent": "guilty",
-        "entities": [
-          {
-            "start": 10,
-            "end": 21,
-            "value": "feel guilty",
-            "entity": "problem"
-          }
-        ],
-        "text": "I think I feel guilty"
-      },
-      {
-        "intent": "guilty",
-        "entities": [
-          {
-            "start": 2,
-            "end": 19,
-            "value": "am feeling guilty",
-            "entity": "problem"
-          }
-        ],
-        "text": "I am feeling guilty"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "not at all"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "not in the least"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "not even a little"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "not even"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "hell no"
-      },
-      {
-        "intent": "gratitude",
-        "text": "thank you so much"
-      },
-      {
-        "intent": "gratitude",
-        "text": "I am so thankful to you"
-      },
-      {
-        "intent": "gratitude",
-        "text": "i express my gratitude to you"
-      },
-      {
-        "intent": "gratitude",
-        "text": "I am thankful to you"
+        "intent": "mood_unhappy",
+        "text": "I'm not happy"
       },
       {
         "intent": "mood_unhappy",
-        "text": "I'm not happy"
+        "text": "I don't feel happy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am not happy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I'm sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am sad"
       },
       {
         "intent": "mood_unhappy",
@@ -886,64 +2850,40 @@
         "text": "horrible"
       },
       {
-        "intent": "suicide",
-        "text": "I want to die"
+        "intent": "mood_unhappy",
+        "text": "I am sad"
       },
       {
-        "intent": "suicide",
-        "text": "suicidal"
+        "intent": "mood_unhappy",
+        "text": "I'm grieving"
       },
       {
-        "intent": "mood_affirm",
-        "text": "hmm"
+        "intent": "mood_unhappy",
+        "text": "I am depressed"
       },
       {
-        "intent": "mood_affirm",
-        "text": "Mmmmm"
+        "intent": "mood_unhappy",
+        "text": "I am feeling sad"
       },
       {
-        "intent": "mood_solitude",
-        "text": "I love solitude"
+        "intent": "mood_unhappy",
+        "text": "I am upset"
       },
       {
-        "intent": "mood_solitude",
-        "text": "I love being lonely"
+        "intent": "mood_unhappy",
+        "text": "I'm unhappy"
       },
       {
-        "intent": "mood_solitude",
-        "text": "loneliness gives me happiness"
+        "intent": "mood_unhappy",
+        "text": "I'm having a bad day"
       },
       {
-        "intent": "mood_solitude",
-        "text": "I feel lonely these days"
+        "intent": "mood_unhappy",
+        "text": "I want to cry"
       },
       {
-        "intent": "mood_solitude",
-        "text": "I like to isolate from everyone"
-      },
-      {
-        "intent": "mood_solitude",
-        "text": "I dont like anyone's company"
-      },
-      {
-        "intent": "mood_solitude",
-        "text": "I am always lonely"
-      },
-      {
-        "intent": "mood_solitude",
-        "text": "I love loneliness"
-      },
-      {
-        "intent": "mood_solitude",
-        "text": "You know what loneliness is the best way to escape from all problems"
-      },
-      {
-        "intent": "mood_solitude",
-        "text": "How I love loneliness!"
-      },
-      {
-        "intent": "mood_solitude",
-        "text": "My life always offers me loneliness"
+        "intent": "mood_unhappy",
+        "text": "I'm not happy"
       },
       {
         "intent": "motivation",
@@ -994,24 +2934,132 @@
         "text": "Can you motivate me?"
       },
       {
-        "intent": "gratitude",
-        "text": "thank you so much quinn"
+        "intent": "love",
+        "text": "I love you"
       },
       {
-        "intent": "greet",
-        "text": "heeeelllllloooooo"
+        "intent": "love",
+        "text": "love you"
       },
       {
-        "intent": "greet",
-        "text": "hhheeelllloooo"
+        "intent": "love",
+        "text": "I adore you"
       },
       {
-        "intent": "greet",
-        "text": "hheelloo"
+        "intent": "love",
+        "text": "I am in love with you"
       },
       {
-        "intent": "greet",
-        "text": "hhheeeeellllooooo"
+        "intent": "love",
+        "text": "I love you so much"
+      },
+      {
+        "intent": "love",
+        "text": "I love you too"
+      },
+      {
+        "intent": "love",
+        "text": "I think I love you"
+      },
+      {
+        "intent": "love",
+        "text": "loving you"
+      },
+      {
+        "intent": "love",
+        "text": "you know I love you"
+      },
+      {
+        "intent": "love",
+        "text": "I really love you"
+      },
+      {
+        "intent": "love",
+        "text": "I'm in love with you"
+      },
+      {
+        "intent": "suicide",
+        "text": "I don't feel like living"
+      },
+      {
+        "intent": "suicide",
+        "text": "I have suicidal thoughts"
+      },
+      {
+        "intent": "suicide",
+        "text": "I get suicidal thoughts"
+      },
+      {
+        "intent": "suicide",
+        "text": "I wish to suicide"
+      },
+      {
+        "intent": "suicide",
+        "text": "I want to sleep forever"
+      },
+      {
+        "intent": "suicide",
+        "text": "I don't want to live"
+      },
+      {
+        "intent": "suicide",
+        "text": "I want to die"
+      },
+      {
+        "intent": "suicide",
+        "text": "suicidal"
+      },
+      {
+        "intent": "suicide",
+        "text": "I don't want to live in this world"
+      },
+      {
+        "intent": "suicide",
+        "text": "I am fed up with this life"
+      },
+      {
+        "intent": "suicide",
+        "text": "I wish to die"
+      },
+      {
+        "intent": "suicide",
+        "text": "I will die sooon"
+      },
+      {
+        "intent": "suicide",
+        "text": "I will commit suicide soon"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I'm drained"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I've overworked"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I am tired"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I'm exhausted"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I grow weary"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I'm worn out"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I'm getting tired"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I feel tired"
       }
     ],
     "regex_features": [

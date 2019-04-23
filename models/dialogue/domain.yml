@@ -1,6 +1,16 @@
 %YAML 1.1
 ---
 actions:
+- utter_solitude_quotes
+- utter_sleep_remedy
+- utter_headache_remedy
+- utter_winning_quotes
+- utter_guilty_remedy
+- utter_positive_quotes
+- utter_appointment
+- utter_ask_date
+- utter_what_music
+- utter_lonely_response
 - utter_greet
 - utter_goodbye
 - utter_ask_problem
@@ -17,15 +27,30 @@ actions:
 - utter_ask_motivation
 - utter_share_positivity
 - utter_motivation
+- utter_love
+- utter_help
+- utter_no_annoying
+- utter_no_boring
+- utter_thankyou
+- action_greet
+- action_bye
+- utter_ask_name
+- sendmail
+- booking
 config:
   store_entities_as_slots: true
 entities:
 - problem
 - duration
 - PERSON
+- date
 forms: []
 intents:
 - greet:
+    use_entities: true
+- app_date:
+    use_entities: true
+- appointment:
     use_entities: true
 - intro:
     use_entities: true
@@ -57,8 +82,28 @@ intents:
     use_entities: true
 - guilty:
     use_entities: true
+- motivation:
+    use_entities: true
+- mood_solitude:
+    use_entities: true
+- annoying:
+    use_entities: true
+- boring:
+    use_entities: true
+- good:
+    use_entities: true
+- angry:
+    use_entities: true
+- love:
+    use_entities: true
+- help:
+    use_entities: true
 slots:
   PERSON:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  date:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
@@ -76,13 +121,22 @@ templates:
   - text: Nice!
   - text: Okay :)
   - text: Cool
+  utter_appointment:
+  - text: Do you require an appoinment with your doctor?
   utter_ask_abt_day:
   - text: How are you doing?
+  - text: How is the day?
+  utter_ask_date:
+  - text: When do need the appointment? Mention the date in(dd/mm/yyy) format
   utter_ask_motivation:
   - text: Do you need any motivation?
+  utter_ask_name:
+  - text: What should I call you dear?
   utter_ask_problem:
-  - text: What do you feel right now?
-  - text: What is bothering you?
+  - text: Oh..That doesn't sound good. Tell me what happened?
+  - text: Why do you feel so dear?
+  - text: Tell me what happened...
+  - text: What happened dear?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
@@ -94,17 +148,34 @@ templates:
   - text: Relax dear... things will get better
   utter_did_that_help:
   - text: Did that help you?
+  utter_explain_more:
+  - text: Well.. I am listening to you.. But can you just explain it a bit more?
   utter_goodbye:
   - text: Talk to you later.
   - text: Bye bye..:(
   - text: Tata.. Take care pal
   - text: Bye.. I will miss you
   utter_greet:
-  - text: Hello! ...
-  - text: Hey!!! What's up?
-  - text: Hollaa!! Happy to see you today
+  - text: Hello! {PERSON}...
+  - text: Hey!!!{PERSON} What's up?
+  - text: Hollaa!!{PERSON} Happy to see you today
+  utter_guilty_remedy:
+  - text: Dont feel guilty dear...
   utter_happy:
   - text: Great carry on!
+  utter_headache_remedy:
+  - text: If you’ve been awake for more than 20 minutes, get out of bed and do a quiet,
+      non-stimulating activity, such as reading a book. Keep the lights dim and avoid
+      screens so as not to cue your body that it’s time to wake up.
+  - text: Sit or lie quietly and focus on your natural breathing and how your body
+      feels in the moment. Allow thoughts and emotions to come and go without judgment,
+      always returning to focus on breath and your body
+  - text: Breathing deeply and fully, involving not only the chest, but also the belly,
+      lower back, and ribcage, can help relaxation. Close your eyes and take deep,
+      slow breaths, making each breath even deeper than the last. Breathe in through
+      your nose and out through your mouth
+  utter_help:
+  - text: Yes.. I am always here to help you
   utter_lonely_response:
   - text: I know it’s hard to see this right now, but it’s only temporary… Things
       will change. You won’t feel this way forever. Look to that day.
@@ -112,17 +183,71 @@ templates:
   - text: You're not alone.
   - text: This is not your fault. I can always change your mindset
   - text: You are not alone dear.... I'm here for you. Don't worry..
+  utter_love:
+  - text: Quinn loves everyone :):)
+  - text: Quinn loves you too
+  - text: I love you too dear.. You are really a good friend of mine
   utter_motivation:
-  - text: url:"https://www.youtube.com/watch?v=akjeulQqzYc"
-  - text: url:"https://www.youtube.com/watch?v=28U0m-66LI4"
+  - text: Here's something to motivate you... url:"https://www.youtube.com/watch?v=akjeulQqzYc"
+  - text: This video might help you... url:"https://www.youtube.com/watch?v=28U0m-66LI4"
+  - text: I have something here to motivate you url:"https://www.youtube.com/watch?v=tC2l--VdjMY"
+  - text: This may help you url:"https://www.youtube.com/watch?v=fiutY4ojZUQ"
+  utter_no_annoying:
+  - text: text:"Sorry dear if you feel so.. I was just trying to help you.."
+  utter_no_boring:
+  - text: "Haha.. that's cool.. Humans always find bots to be boring... But wait we\
+      \ love to talk to you so that we can learn a lot of things from you.. You are\
+      \ quite interesting. "
   utter_positive:
   - text: No worries, I'm glad you are here :D
   - text: All is well!!
   - text: I am so happy that you are here
+  utter_positive_quotes:
+  - text: We must not allow the clock, the calendar, and external pressures to rule
+      our lives and blind us to the fact that each individual moment of our  lives
+      is a beautiful mystery and a miracle – especially those moments we spend in
+      the presence of a loved one.
+  - text: Once you replace negative thoughts with positive ones, you’ll start having
+      positive results.
+  - text: Positive thinking is more than just a tagline. It changes the way we behave.
+      And when you're positive, it not only makes you better, but it also makes those
+      around you better.
+  - text: In every day, there are 1,440 minutes. That means we have 1,440 daily opportunities
+      to make a positive impact.So go ahead dear. Make urself happy
   utter_share_positivity:
-  - text: I've got something I want to tell you today
+  - text: I've got something that I want to tell you today. Would you like to hear?
+  utter_sleep_remedy:
+  - text: '1. Make sure your bedroom is quiet, dark, and cool. 2. Stick to a regular
+      sleep schedule 3.Turn off all screens at least an hour before bed 4. Avoid stimulating
+      activity and stressful situations before bedtime 5. Avoid naps '
+  utter_solitude_quotes:
+  - text: 'Treat yourself with a solo date: Order your favorite dishes...This really
+      works!!!'
+  - text: Go for an evening walk.. This will enhance the supply of oxygen to the lungs
+      making you feel more energetic. This is a good option to kill your loneliness
+      and feel more close to the nature. Once you make nature your dear friend, you
+      will hardly be alone.
+  - text: Just shut down all your digital gadgets or just log off and have a good
+      time outside or go on to the roof top enjoying the overview of the city with
+      your coffee mug.
+  - text: 'Hey adopt a hobby: Buy a DSLR or start cooking or sketching or start learning
+      musical instruments.'
+  - text: Watching TED Talks can really inspire you and take your tiring soul out
+      of loneliness. You can either go to TED Talk’s official website or can browse
+      some on YouTube.
+  - text: If your boring soul needs a fresh start, just start working out. Join a
+      nearby gym or physical training workshop or a Yoga class. It will help rejuvenate
+      your mind and rush blood in the body due to workout and meditation will kill
+      the boredom and most importantly your loneliness.
   utter_suggest_music:
   - text: Would like to hear some good music?
+  utter_thankyou:
+  - text: Thank you so much dear...
   utter_welcome:
   - text: You're welcome
   - text: Never Mention Dear!!
+  utter_what_music:
+  - text: What kind of music do you like?
+  - text: Which is your favorite music genre?
+  utter_winning_quotes:
+  - text: Don't feel that you have failed. Work hard.. Youn will surely succeed

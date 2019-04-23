@@ -1,21 +1,48 @@
 {
   "action_fingerprints": {
     "action_listen": {
+      "slots": [
+        "date",
+        "duration"
+      ]
+    },
+    "utter_welcome": {
       "slots": []
     },
-    "utter_goodbye": {
+    "action_bye": {
+      "slots": []
+    },
+    "utter_console": {
+      "slots": []
+    },
+    "utter_positive": {
+      "slots": []
+    },
+    "booking": {
       "slots": []
     },
     "utter_happy": {
       "slots": []
     },
-    "utter_motivation": {
+    "action_greet": {
       "slots": []
     },
-    "utter_greet": {
+    "utter_love": {
+      "slots": []
+    },
+    "utter_share_positivity": {
       "slots": []
     },
     "utter_ask_problem": {
+      "slots": []
+    },
+    "utter_no_annoying": {
+      "slots": []
+    },
+    "utter_thankyou": {
+      "slots": []
+    },
+    "utter_motivation": {
       "slots": []
     }
   },
@@ -28,8 +55,9 @@
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.keras_policy.KerasPolicy"
+	"rasa_core.policies.FormPolicy"
   ],
-  "trained_at": "20190402-143139",
+  "trained_at": "20190422-211127",
   "rasa_core": "0.13.3",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.2"

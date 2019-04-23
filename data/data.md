@@ -1,0 +1,599 @@
+## intent:angry
+- I'm being mad
+- Iam being mad
+- I'm enraged
+- I am enraged
+- I'm angry
+- I am angry
+- I'm furious
+- I am furious
+- I am angry with you
+- I'm angry with you
+- I am mad
+- I'm mad
+- I am mad at you
+- I am really angry with you
+- I am getting angry
+- I'm getting angry
+
+## intent:annoying
+- you are annoying me so much
+- you're incredibly annoying
+- I find you annoying
+- you are annoying
+- you're so annoying
+- how annoying you are
+- you annoy me
+- you are annoying me
+- you are irritating
+- you are such annoying
+- you're too annoying
+- you are very annoying
+
+## intent:app_date
+- I need it on [01/05/2019](date)
+- I need the appointment on [02/05/2019](date)
+- [03/05/2019](date)
+- [04/05/2019](date)
+- [05/05/2019](date)
+- [06/05/2019](date)
+- [01/06/2019](date)
+- [01/07/2019](date)
+- [01/08/2019](date)
+- [01/09/2019](date)
+- [01/10/2019](date)
+- [01/11/2019](date)
+- [01/12/2019](date)
+- I need the appointment on [02/06/2019](date)
+- I need the appointment on [02/07/2019](date)
+- I need the appointment on [02/08/2019](date)
+- I need it on [01/06/2019](date)
+- I need it on [01/07/2019](date)
+
+## intent:appointment
+- I need an appoinment with my doc
+- Plz book an appointment with my doctor
+- I need an appointment with my doctor
+- Please book an appointment with my doctor
+- I urgently need to meet my doctor
+- book an appointment for me
+- appointment
+- Quinn.. plz book an appointment for me
+- Quinn.. please book an appointment for me
+- I need an appointment
+
+## intent:boring
+- you are boring
+- you're so boring
+- how boring you are
+- you're really boring
+- you're incredibly boring
+- you are boring me
+- you are very boring
+
+## intent:cant_sleep
+- I [can't sleep](problem)
+- I am [sleepless](problem)
+- I'm [sleep deprived](problem)
+- I have [very less](duration) sleep these days
+- I am awake [all the time](duration). even during the nights
+- I am not able to sleep properly
+- I [can't sleep](problem) well for the [past few days](duration)
+- I [didn't sleep](problem) for [two days](duration)
+- I haven't slept for [3 days](duration)
+- I'm [insomnious](problem)
+- I'm [sleepless](problem)
+- I [can't get any sleep](problem)
+- I [can't sleep](problem)
+- I [can't fall asleep](problem)
+- I [can't get to sleep](problem)
+- I  [get no sleep](problem)
+- I'm [insomniac](problem)
+
+## intent:failure_thoughts
+- I always get everything wrong
+- i quit
+- i am a complete failure
+- I always fail
+- I am a failure
+- I'm a failure
+- I am sick of getting failed
+- I fail in everything I do
+- I fail
+- I'm a failure
+
+## intent:good
+- you are very helpful
+- you are the best
+- you're a true professional
+- you are good
+- you work well
+- you are good at it
+- you are very good at it
+- you are a pro
+- you are a professional
+- you're awesome
+- you work very well
+- you're perfect
+- you're great
+- you're so kind
+- you are amazing
+- you are awesome
+- you are cool
+- you are really good
+- you are really nice
+- you are so amazing
+- you're just super
+- you are so awesome
+- you are so cool
+- you are so fine
+- you are so good
+- you are so helpful
+- you are so lovely
+- you are the best ever
+- you are the best in the world
+- you are the nicest person in the world
+- you are too good
+- you are very cool
+- you are very kind
+- you are very lovely
+- you are very useful
+- you are wonderful
+- you made my day
+- you make my day
+- you rock
+- you almost sound human
+- I want to tell everyone how awesome you are
+- I'd like to tell everyone that you are awesome
+- I want to let everyone know that you are awesome
+- let's tell everyone that you are awesome
+- you are really amazing
+
+## intent:goodbye
+- goodbye
+- bye
+- goodbye
+- bye bye
+- see ya
+- see you later
+- okay see you later
+- hope to see you later
+- bye for now
+- till next time
+- I must go
+- bye
+- goodbye
+- see you
+- see you soon
+- bye-bye
+- bye bye good night
+- good bye
+- bye bye see you
+- bye bye see you soon
+- bye bye take care
+- I said bye
+- never mind bye
+- now bye
+- that's all goodbye
+- that's it goodbye
+- leave me alone
+- go to bed
+- goodbye for now
+- talk to you later
+- you can go now
+- get lost
+- goodbye see you later
+- alright bye
+- see ya
+- thanks bye bye
+- okay bye
+- okay thank you bye
+- see you tomorrow
+- ok bye
+
+## intent:gratitude
+- I thank you
+- ty
+- thank you
+- thanks
+- thank you so much
+- I am so thankful to you
+- i express my gratitude to you
+- I am thankful to you
+- thank you so much quinn
+- you helped a lot thank you
+- appreciate your help
+- cheers
+- thank you
+- thanks
+- thanks a lot
+- terrific thank you
+- great thank you
+- thanks so much
+- thank you so much
+- thanks for your help
+- thank you for your help
+- nice thank you
+- I appreciate it
+- I thank you
+- thank you that will be all
+- thanks buddy
+- thanks love
+- thank you my friend
+- well thanks
+- very good thank you
+- good thanks
+- thanks again
+- thank you again
+- all thank you
+- alright thank you
+- alright thanks
+- no thank you that's all
+- perfect thank you
+- so nice of you
+- well thank you
+- well thanks
+- thnx
+- thank you
+- thanx
+- Thnx
+
+## intent:greet
+- Hello
+- hey
+- hello
+- hi
+- heya
+- howdy
+- hey there
+- hey there
+- hello there
+- hi there
+- good morning
+- good afternoon
+- good evening
+- moin
+- what's up
+- wassup
+- what up
+- sup
+- heeeelllllloooooo
+- hhheeelllloooo
+- hheelloo
+- hhheeeeellllooooo
+- hhhhiiiiiiii
+- hiiiiii
+- hiiiiiiiiiiiiiiiiiiiiiiii
+- hhheeeyyyyy
+- heyyyyyyyy
+- heyyyyyyyyyyyyyyyyyyyyy
+- heyy
+- hollllaaaa
+- hey quinn
+- hey
+
+## intent:guilty
+- I feel guilty
+- I find myself to be really guilt conscious these days
+- Everything I do makes me guilty
+- I m [guilty](problem)
+- I'm [guilty](problem)
+- I am [guilty](problem)
+- I think I [feel guilty](problem)
+- I [am feeling guilty](problem)
+
+## intent:headache
+- I get [headache](problem) [often](duration) these days
+- I have a[ severe headache](problem)
+- My head gets hot [everytime](duration)
+- My [head aches like hell](problem)
+- I feel like something [hitting my head](problem) [all the time](duration)
+- My [head is paining](problem)
+- My [head is aching](problem)
+- [Head aches](problem)
+- [head pains](problem)
+- I am having [headache](problem) for the[ past two days](duration)
+- I think I have a [serious issue with my head](problem). It [always](duration) aches
+
+## intent:help
+- I need you to help me
+- I need you to do something for me
+- I need a hand
+- will you help me
+- can you do something for me
+- help me with a problem
+- can you help me
+- help me
+- assistance
+- I need your help
+- I need help
+- you can help me
+- can you help me with something
+- can you help
+- assist
+- can u help me
+- I need some help
+- you help me
+- do you help me
+- can help me
+- could you give me a hand
+- can you help me out
+- need help
+- I need you
+- can you help me now
+- I want your help
+- need your help
+- assist me
+- are you going to help me
+- can you help me with that
+- help
+- I need you right now
+- would you help me
+- can you assist me
+- sos
+- do you want to help me
+- please help me
+- can you help us
+- do me a favor
+
+## intent:intro
+- hey!!! This is [Neena](PERSON) here
+- I'm [Sandra](PERSON)
+- This is [Hectar](PERSON)
+- Myself [Anil](PERSON)
+- I am [Neevan](PERSON)
+- This is [Rahul](PERSON) here
+- [Sanvi](PERSON)
+- My name is [Hari](PERSON)
+- I am [Syla](PERSON)
+- I'm [Angel](PERSON)
+- People call me [Bhagya](PERSON)
+- It's [Neevan](PERSON)
+- Usually people call me [Vinitha](PERSON)
+- My name is [John](PERSON)
+- You can call me [Sam](PERSON)
+- Please call me [Aliya](PERSON)
+- Name name is [Aswin](PERSON)
+- I am [Abhilash](PERSON)
+- I'm [Akhila](PERSON)
+- Call me [Aiswarya](PERSON)
+- I am [Akshay](PERSON)
+- I am [Alphy](PERSON)
+- I am [Athira](PERSON)
+- I am [Devika](PERSON)
+- Call me [Arjun](PERSON)
+- [Reshma](PERSON)
+- [Anju](PERSON)
+- [Nikhila](PERSON)
+- [Mary](PERSON)
+- [Madhav](PERSON)
+- [Priya](PERSON)
+- [Meena](PERSON)
+- [Anjana](PERSON)
+- name is [Adithya](PERSON)
+- I [Krishna](PERSON)
+- [Shanu](PERSON) is my name
+- [Nandu](PERSON) is the name
+- [Ross](PERSON) is my first name
+- [Bing](PERSON) is my last name
+- Few call me as [Angelina](PERSON)
+- Some call me [Maria](PERSON)
+- Everyone calls me [Anoop](PERSON)
+- I am [Ganesh](PERSON)
+- My name is [Rajeev](PERSON)
+- just call me [Basith](PERSON)
+- Few call [Rafsal]](PERSON)
+- You can always call me [Suraj](PERSON)
+- Some will call me [Andrew](PERSON)
+- My name is [Ajay](PERSON)
+- I call [Parvathy](PERSON)
+- I'm [Aswathi](PERSON)
+- Please call me [Lena](PERSON)
+- name is [Neenu](PERSON)
+- name [Sanjay]](PERSON)
+- I am [Nain](PERSON)
+
+## intent:love
+- I love you
+- love you
+- I adore you
+- I am in love with you
+- I love you so much
+- I love you too
+- I think I love you
+- loving you
+- you know I love you
+- I really love you
+- I'm in love with you
+
+## intent:mood_affirm
+- yep
+- oh yeah
+- oh yes
+- hell yeah
+- hell yes
+- for sure
+- totally
+- absolutely
+- definitely
+- so much
+- so much better
+- you're a life-saver
+- you saved my life
+- you've saved my life
+- so helpful
+- yeah, thanks
+- sure
+- I guess so
+- I guess
+- kind of
+- kinda
+- a little bit
+- a little
+- somewhat
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- ya
+- yeah
+- ok
+- k
+- yup
+- you said it right
+- hmm
+- Mmmmm
+- thts cool
+
+## intent:mood_deny
+- no
+- never
+- i don't think so
+- don't like that
+- no way
+- nope
+- not at all
+- not in the least
+- not even a little
+- not even
+- hell no
+
+## intent:mood_happy
+- wonderful
+- i am happy
+- I am feeling very good
+- I am great
+- I am amazing
+- I am going to save the world
+- wonderful
+- I am feeling very good
+- I feel happy
+- I don't feel unhappy
+- I don't get headache
+- I don't get angry
+- I don't feel sad
+- I am not sad
+- I'm not sad
+- I aint sad
+- I am not alone
+- I feel great
+- I feel amazing
+- I feel good
+- I feel wonderful
+- really good
+- really great
+- pretty good
+- pretty great
+- really awesome
+- pretty awesome
+- pretty amazing
+- pretty wonderful
+- I am not alone
+- I'm not alone
+- I am not unhappy
+- I'm not unhappy
+- I feel positive about everything
+- great
+
+## intent:mood_solitude
+- I love solitude
+- I am alone
+- I love being lonely
+- loneliness gives me happiness
+- I feel lonely these days
+- I like to isolate from everyone
+- I dont like anyone's company
+- I am always lonely
+- I love loneliness
+- You know what loneliness is the best way to escape from all problems
+- How I love loneliness!
+- My life always offers me loneliness
+- I am lonely
+- I'm very lonely
+- I'm so lonely
+- I'm really lonely
+- I am feeling lonely
+- I feel lonely
+
+## intent:mood_unhappy
+- my day [was horrible](problem)
+- I [am sad](problem)
+- I[ don't feel very well](problem)
+- I [am disappointed](problem)
+- I'm not happy
+- I don't feel happy
+- I am not happy
+- I'm sad
+- I am sad
+- I feel sad
+- I feel terrible
+- I feel horrible
+- I feel awful
+- I feel like shit
+- I hate my life
+- I hate my job
+- I hate my girlfriend
+- I hate my boyfriend
+- unhappy
+- sad
+- bummed
+- down
+- shitty
+- crappy
+- awful
+- terrible
+- horrible
+- I am sad
+- I'm grieving
+- I am depressed
+- I am feeling sad
+- I am upset
+- I'm unhappy
+- I'm having a bad day
+- I want to cry
+- I'm not happy
+- hmm
+
+## intent:motivation
+- I need motivation
+- I think I lack motivation
+- It is high time I get motivated
+- Motivation is what I need
+- There is no one to motivate me
+- I cant do anything...I lost all my capabilities
+- I really need some motivation
+- I need someone to motivate me
+- I cant motivate myself
+- Give me some motivation
+- Can you just motivate me?
+- Can you motivate me?
+
+## intent:suicide
+- I don't feel like living
+- I have suicidal thoughts
+- I get suicidal thoughts
+- I wish to suicide
+- I want to sleep forever
+- I don't want to live
+- I want to die
+- suicidal
+- I don't want to live in this world
+- I am fed up with this life
+- I wish to die
+- I will die sooon
+- I will commit suicide soon
+- I need to suicide quinn
+
+## intent:user_tired
+- I'm drained
+- I've overworked
+- I am tired
+- I'm exhausted
+- I grow weary
+- I'm worn out
+- I'm getting tired
+- I feel tired
+
+## regex:greet
+- h[^\s]*e[^\s]*l[^\s]*l[^\s]*o[^\s]*
