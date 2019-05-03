@@ -2,6 +2,202 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "talk",
+        "text": "why aren't you talking to me"
+      },
+      {
+        "intent": "talk",
+        "text": "do you want to chat with me"
+      },
+      {
+        "intent": "talk",
+        "text": "will you talk to me"
+      },
+      {
+        "intent": "talk",
+        "text": "talk to me"
+      },
+      {
+        "intent": "talk",
+        "text": "are you going to talk to me"
+      },
+      {
+        "intent": "talk",
+        "text": "are you talking to me"
+      },
+      {
+        "intent": "talk",
+        "text": "can you chat with me"
+      },
+      {
+        "intent": "talk",
+        "text": "can you speak with me"
+      },
+      {
+        "intent": "talk",
+        "text": "can you talk to me"
+      },
+      {
+        "intent": "talk",
+        "text": "can you talk with me"
+      },
+      {
+        "intent": "talk",
+        "text": "say"
+      },
+      {
+        "intent": "talk",
+        "text": "talk"
+      },
+      {
+        "intent": "talk",
+        "text": "chat with me"
+      },
+      {
+        "intent": "talk",
+        "text": "just chat with me"
+      },
+      {
+        "intent": "talk",
+        "text": "speak to me"
+      },
+      {
+        "intent": "talk",
+        "text": "speak with me"
+      },
+      {
+        "intent": "talk",
+        "text": "talk with me"
+      },
+      {
+        "intent": "talk",
+        "text": "why don't you talk to me"
+      },
+      {
+        "intent": "talk",
+        "text": "you can talk to me"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm being mad"
+      },
+      {
+        "intent": "angry",
+        "text": "Iam being mad"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm enraged"
+      },
+      {
+        "intent": "angry",
+        "text": "I am enraged"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm angry"
+      },
+      {
+        "intent": "angry",
+        "text": "I am angry"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm furious"
+      },
+      {
+        "intent": "angry",
+        "text": "I am furious"
+      },
+      {
+        "intent": "angry",
+        "text": "I am angry with you"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm angry with you"
+      },
+      {
+        "intent": "angry",
+        "text": "I am mad"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm mad"
+      },
+      {
+        "intent": "angry",
+        "text": "I am mad at you"
+      },
+      {
+        "intent": "angry",
+        "text": "I am really angry with you"
+      },
+      {
+        "intent": "angry",
+        "text": "I am getting angry"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm getting angry"
+      },
+      {
+        "intent": "angry",
+        "text": "she ditched me that bitch"
+      },
+      {
+        "intent": "angry",
+        "text": "i need to kill her"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are annoying me so much"
+      },
+      {
+        "intent": "annoying",
+        "text": "you're incredibly annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "I find you annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you're so annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "how annoying you are"
+      },
+      {
+        "intent": "annoying",
+        "text": "you annoy me"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are annoying me"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are irritating"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are such annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you're too annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are very annoying"
+      },
+      {
         "intent": "app_date",
         "entities": [
           {
@@ -218,6 +414,22 @@
         "text": "I need it on 01/07/2019"
       },
       {
+        "intent": "app_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "25/05/2019",
+            "entity": "date"
+          }
+        ],
+        "text": "25/05/2019"
+      },
+      {
+        "intent": "appointment",
+        "text": "I need to make an appointment with my doctor"
+      },
+      {
         "intent": "appointment",
         "text": "I need an appoinment with my doc"
       },
@@ -256,6 +468,42 @@
       {
         "intent": "appointment",
         "text": "I need an appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "I need an appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "I need an appointment"
+      },
+      {
+        "intent": "boring",
+        "text": "you are boring"
+      },
+      {
+        "intent": "boring",
+        "text": "you're so boring"
+      },
+      {
+        "intent": "boring",
+        "text": "how boring you are"
+      },
+      {
+        "intent": "boring",
+        "text": "you're really boring"
+      },
+      {
+        "intent": "boring",
+        "text": "you're incredibly boring"
+      },
+      {
+        "intent": "boring",
+        "text": "you are boring me"
+      },
+      {
+        "intent": "boring",
+        "text": "you are very boring"
       },
       {
         "intent": "cant_sleep",
@@ -466,6 +714,22 @@
         "text": "I'm insomniac"
       },
       {
+        "intent": "cant_sleep",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "value": "ca n't sleep",
+            "entity": "problem"
+          }
+        ],
+        "text": "I can't sleep"
+      },
+      {
+        "intent": "cant_sleep",
+        "text": "Ihaven't slept for the past 2dys"
+      },
+      {
         "intent": "failure_thoughts",
         "text": "I always get everything wrong"
       },
@@ -504,6 +768,186 @@
       {
         "intent": "failure_thoughts",
         "text": "I'm a failure"
+      },
+      {
+        "intent": "good",
+        "text": "you are very helpful"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best"
+      },
+      {
+        "intent": "good",
+        "text": "you're a true professional"
+      },
+      {
+        "intent": "good",
+        "text": "you are good"
+      },
+      {
+        "intent": "good",
+        "text": "you work well"
+      },
+      {
+        "intent": "good",
+        "text": "you are good at it"
+      },
+      {
+        "intent": "good",
+        "text": "you are very good at it"
+      },
+      {
+        "intent": "good",
+        "text": "you are a pro"
+      },
+      {
+        "intent": "good",
+        "text": "you are a professional"
+      },
+      {
+        "intent": "good",
+        "text": "you're awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you work very well"
+      },
+      {
+        "intent": "good",
+        "text": "you're perfect"
+      },
+      {
+        "intent": "good",
+        "text": "you're great"
+      },
+      {
+        "intent": "good",
+        "text": "you're so kind"
+      },
+      {
+        "intent": "good",
+        "text": "you are amazing"
+      },
+      {
+        "intent": "good",
+        "text": "you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are really good"
+      },
+      {
+        "intent": "good",
+        "text": "you are really nice"
+      },
+      {
+        "intent": "good",
+        "text": "you are so amazing"
+      },
+      {
+        "intent": "good",
+        "text": "you're just super"
+      },
+      {
+        "intent": "good",
+        "text": "you are so awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are so cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are so fine"
+      },
+      {
+        "intent": "good",
+        "text": "you are so good"
+      },
+      {
+        "intent": "good",
+        "text": "you are so helpful"
+      },
+      {
+        "intent": "good",
+        "text": "you are so lovely"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best ever"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best in the world"
+      },
+      {
+        "intent": "good",
+        "text": "you are the nicest person in the world"
+      },
+      {
+        "intent": "good",
+        "text": "you are too good"
+      },
+      {
+        "intent": "good",
+        "text": "you are very cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are very kind"
+      },
+      {
+        "intent": "good",
+        "text": "you are very lovely"
+      },
+      {
+        "intent": "good",
+        "text": "you are very useful"
+      },
+      {
+        "intent": "good",
+        "text": "you are wonderful"
+      },
+      {
+        "intent": "good",
+        "text": "you made my day"
+      },
+      {
+        "intent": "good",
+        "text": "you make my day"
+      },
+      {
+        "intent": "good",
+        "text": "you rock"
+      },
+      {
+        "intent": "good",
+        "text": "you almost sound human"
+      },
+      {
+        "intent": "good",
+        "text": "I want to tell everyone how awesome you are"
+      },
+      {
+        "intent": "good",
+        "text": "I'd like to tell everyone that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "I want to let everyone know that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "let's tell everyone that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are really amazing"
       },
       {
         "intent": "goodbye",
@@ -664,6 +1108,18 @@
       {
         "intent": "goodbye",
         "text": "ok bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thanks quinn"
+      },
+      {
+        "intent": "goodbye",
+        "text": "I need to go.. bye"
       },
       {
         "intent": "gratitude",
@@ -842,6 +1298,10 @@
         "text": "thanx"
       },
       {
+        "intent": "gratitude",
+        "text": "Thnx"
+      },
+      {
         "intent": "greet",
         "text": "Hello"
       },
@@ -964,6 +1424,34 @@
       {
         "intent": "greet",
         "text": "hey quinn"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "reena",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "callme reena"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
       },
       {
         "intent": "guilty",
@@ -1194,6 +1682,162 @@
         "text": "I think I have a serious issue with my head. It always aches"
       },
       {
+        "intent": "help",
+        "text": "I need you to help me"
+      },
+      {
+        "intent": "help",
+        "text": "I need you to do something for me"
+      },
+      {
+        "intent": "help",
+        "text": "I need a hand"
+      },
+      {
+        "intent": "help",
+        "text": "will you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you do something for me"
+      },
+      {
+        "intent": "help",
+        "text": "help me with a problem"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me"
+      },
+      {
+        "intent": "help",
+        "text": "help me"
+      },
+      {
+        "intent": "help",
+        "text": "assistance"
+      },
+      {
+        "intent": "help",
+        "text": "I need your help"
+      },
+      {
+        "intent": "help",
+        "text": "I need help"
+      },
+      {
+        "intent": "help",
+        "text": "you can help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me with something"
+      },
+      {
+        "intent": "help",
+        "text": "can you help"
+      },
+      {
+        "intent": "help",
+        "text": "assist"
+      },
+      {
+        "intent": "help",
+        "text": "can u help me"
+      },
+      {
+        "intent": "help",
+        "text": "I need some help"
+      },
+      {
+        "intent": "help",
+        "text": "you help me"
+      },
+      {
+        "intent": "help",
+        "text": "do you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can help me"
+      },
+      {
+        "intent": "help",
+        "text": "could you give me a hand"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me out"
+      },
+      {
+        "intent": "help",
+        "text": "need help"
+      },
+      {
+        "intent": "help",
+        "text": "I need you"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me now"
+      },
+      {
+        "intent": "help",
+        "text": "I want your help"
+      },
+      {
+        "intent": "help",
+        "text": "need your help"
+      },
+      {
+        "intent": "help",
+        "text": "assist me"
+      },
+      {
+        "intent": "help",
+        "text": "are you going to help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me with that"
+      },
+      {
+        "intent": "help",
+        "text": "help"
+      },
+      {
+        "intent": "help",
+        "text": "I need you right now"
+      },
+      {
+        "intent": "help",
+        "text": "would you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you assist me"
+      },
+      {
+        "intent": "help",
+        "text": "sos"
+      },
+      {
+        "intent": "help",
+        "text": "do you want to help me"
+      },
+      {
+        "intent": "help",
+        "text": "please help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help us"
+      },
+      {
+        "intent": "help",
+        "text": "do me a favor"
+      },
+      {
         "intent": "intro",
         "entities": [
           {
@@ -1204,6 +1848,66 @@
           }
         ],
         "text": "hey!!! This is Neena here"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Jose",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Call me Jose"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Angel",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Call me Angel"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Vinya",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Call me Vinya"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Angel",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Call me Angel"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Sandra",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Call me Sandra"
       },
       {
         "intent": "intro",
@@ -1504,6 +2208,66 @@
           }
         ],
         "text": "Reshma"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Angel",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Angel"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Vinya",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Vinya"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Angel",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Angel"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Sandra",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Sandra"
+      },
+      {
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Jose",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Jose"
       },
       {
         "intent": "intro",
@@ -1826,416 +2590,96 @@
         "text": "name [Sanjay]](PERSON)"
       },
       {
-        "intent": "annoying",
-        "text": "you are annoying me so much"
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Nain",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I am Nain"
       },
       {
-        "intent": "annoying",
-        "text": "you're incredibly annoying"
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Narain",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I am Narain"
       },
       {
-        "intent": "annoying",
-        "text": "I find you annoying"
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "neevan",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I am Neevan"
       },
       {
-        "intent": "annoying",
-        "text": "you are annoying"
+        "intent": "intro",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "vinya",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "Vinya"
       },
       {
-        "intent": "annoying",
-        "text": "you're so annoying"
+        "intent": "love",
+        "text": "I love you"
       },
       {
-        "intent": "annoying",
-        "text": "how annoying you are"
+        "intent": "love",
+        "text": "love you"
       },
       {
-        "intent": "annoying",
-        "text": "you annoy me"
+        "intent": "love",
+        "text": "I adore you"
       },
       {
-        "intent": "annoying",
-        "text": "you are annoying me"
+        "intent": "love",
+        "text": "I am in love with you"
       },
       {
-        "intent": "annoying",
-        "text": "you are irritating"
+        "intent": "love",
+        "text": "I love you so much"
       },
       {
-        "intent": "annoying",
-        "text": "you are such annoying"
+        "intent": "love",
+        "text": "I love you too"
       },
       {
-        "intent": "annoying",
-        "text": "you're too annoying"
+        "intent": "love",
+        "text": "I think I love you"
       },
       {
-        "intent": "annoying",
-        "text": "you are very annoying"
+        "intent": "love",
+        "text": "loving you"
       },
       {
-        "intent": "boring",
-        "text": "you are boring"
+        "intent": "love",
+        "text": "you know I love you"
       },
       {
-        "intent": "boring",
-        "text": "you're so boring"
+        "intent": "love",
+        "text": "I really love you"
       },
       {
-        "intent": "boring",
-        "text": "how boring you are"
-      },
-      {
-        "intent": "boring",
-        "text": "you're really boring"
-      },
-      {
-        "intent": "boring",
-        "text": "you're incredibly boring"
-      },
-      {
-        "intent": "boring",
-        "text": "you are boring me"
-      },
-      {
-        "intent": "boring",
-        "text": "you are very boring"
-      },
-      {
-        "intent": "help",
-        "text": "I need you to help me"
-      },
-      {
-        "intent": "help",
-        "text": "I need you to do something for me"
-      },
-      {
-        "intent": "help",
-        "text": "I need a hand"
-      },
-      {
-        "intent": "help",
-        "text": "will you help me"
-      },
-      {
-        "intent": "help",
-        "text": "can you do something for me"
-      },
-      {
-        "intent": "help",
-        "text": "help me with a problem"
-      },
-      {
-        "intent": "help",
-        "text": "can you help me"
-      },
-      {
-        "intent": "help",
-        "text": "help me"
-      },
-      {
-        "intent": "help",
-        "text": "assistance"
-      },
-      {
-        "intent": "help",
-        "text": "I need your help"
-      },
-      {
-        "intent": "help",
-        "text": "I need help"
-      },
-      {
-        "intent": "help",
-        "text": "you can help me"
-      },
-      {
-        "intent": "help",
-        "text": "can you help me with something"
-      },
-      {
-        "intent": "help",
-        "text": "can you help"
-      },
-      {
-        "intent": "help",
-        "text": "assist"
-      },
-      {
-        "intent": "help",
-        "text": "can u help me"
-      },
-      {
-        "intent": "help",
-        "text": "I need some help"
-      },
-      {
-        "intent": "help",
-        "text": "you help me"
-      },
-      {
-        "intent": "help",
-        "text": "do you help me"
-      },
-      {
-        "intent": "help",
-        "text": "can help me"
-      },
-      {
-        "intent": "help",
-        "text": "could you give me a hand"
-      },
-      {
-        "intent": "help",
-        "text": "can you help me out"
-      },
-      {
-        "intent": "help",
-        "text": "need help"
-      },
-      {
-        "intent": "help",
-        "text": "I need you"
-      },
-      {
-        "intent": "help",
-        "text": "can you help me now"
-      },
-      {
-        "intent": "help",
-        "text": "I want your help"
-      },
-      {
-        "intent": "help",
-        "text": "need your help"
-      },
-      {
-        "intent": "help",
-        "text": "assist me"
-      },
-      {
-        "intent": "help",
-        "text": "are you going to help me"
-      },
-      {
-        "intent": "help",
-        "text": "can you help me with that"
-      },
-      {
-        "intent": "help",
-        "text": "help"
-      },
-      {
-        "intent": "help",
-        "text": "I need you right now"
-      },
-      {
-        "intent": "help",
-        "text": "would you help me"
-      },
-      {
-        "intent": "help",
-        "text": "can you assist me"
-      },
-      {
-        "intent": "help",
-        "text": "sos"
-      },
-      {
-        "intent": "help",
-        "text": "do you want to help me"
-      },
-      {
-        "intent": "help",
-        "text": "please help me"
-      },
-      {
-        "intent": "help",
-        "text": "can you help us"
-      },
-      {
-        "intent": "help",
-        "text": "do me a favor"
-      },
-      {
-        "intent": "good",
-        "text": "you are very helpful"
-      },
-      {
-        "intent": "good",
-        "text": "you are the best"
-      },
-      {
-        "intent": "good",
-        "text": "you're a true professional"
-      },
-      {
-        "intent": "good",
-        "text": "you are good"
-      },
-      {
-        "intent": "good",
-        "text": "you work well"
-      },
-      {
-        "intent": "good",
-        "text": "you are good at it"
-      },
-      {
-        "intent": "good",
-        "text": "you are very good at it"
-      },
-      {
-        "intent": "good",
-        "text": "you are a pro"
-      },
-      {
-        "intent": "good",
-        "text": "you are a professional"
-      },
-      {
-        "intent": "good",
-        "text": "you're awesome"
-      },
-      {
-        "intent": "good",
-        "text": "you work very well"
-      },
-      {
-        "intent": "good",
-        "text": "you're perfect"
-      },
-      {
-        "intent": "good",
-        "text": "you're great"
-      },
-      {
-        "intent": "good",
-        "text": "you're so kind"
-      },
-      {
-        "intent": "good",
-        "text": "you are amazing"
-      },
-      {
-        "intent": "good",
-        "text": "you are awesome"
-      },
-      {
-        "intent": "good",
-        "text": "you are cool"
-      },
-      {
-        "intent": "good",
-        "text": "you are really good"
-      },
-      {
-        "intent": "good",
-        "text": "you are really nice"
-      },
-      {
-        "intent": "good",
-        "text": "you are so amazing"
-      },
-      {
-        "intent": "good",
-        "text": "you're just super"
-      },
-      {
-        "intent": "good",
-        "text": "you are so awesome"
-      },
-      {
-        "intent": "good",
-        "text": "you are so cool"
-      },
-      {
-        "intent": "good",
-        "text": "you are so fine"
-      },
-      {
-        "intent": "good",
-        "text": "you are so good"
-      },
-      {
-        "intent": "good",
-        "text": "you are so helpful"
-      },
-      {
-        "intent": "good",
-        "text": "you are so lovely"
-      },
-      {
-        "intent": "good",
-        "text": "you are the best ever"
-      },
-      {
-        "intent": "good",
-        "text": "you are the best in the world"
-      },
-      {
-        "intent": "good",
-        "text": "you are the nicest person in the world"
-      },
-      {
-        "intent": "good",
-        "text": "you are too good"
-      },
-      {
-        "intent": "good",
-        "text": "you are very cool"
-      },
-      {
-        "intent": "good",
-        "text": "you are very kind"
-      },
-      {
-        "intent": "good",
-        "text": "you are very lovely"
-      },
-      {
-        "intent": "good",
-        "text": "you are very useful"
-      },
-      {
-        "intent": "good",
-        "text": "you are wonderful"
-      },
-      {
-        "intent": "good",
-        "text": "you made my day"
-      },
-      {
-        "intent": "good",
-        "text": "you make my day"
-      },
-      {
-        "intent": "good",
-        "text": "you rock"
-      },
-      {
-        "intent": "good",
-        "text": "you almost sound human"
-      },
-      {
-        "intent": "good",
-        "text": "I want to tell everyone how awesome you are"
-      },
-      {
-        "intent": "good",
-        "text": "I'd like to tell everyone that you are awesome"
-      },
-      {
-        "intent": "good",
-        "text": "I want to let everyone know that you are awesome"
-      },
-      {
-        "intent": "good",
-        "text": "let's tell everyone that you are awesome"
-      },
-      {
-        "intent": "good",
-        "text": "you are really amazing"
+        "intent": "love",
+        "text": "I'm in love with you"
       },
       {
         "intent": "mood_affirm",
@@ -2390,6 +2834,30 @@
         "text": "thts cool"
       },
       {
+        "intent": "mood_affirm",
+        "text": "will try"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "Yaa"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yaa"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yaa"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yup it did"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "kind of"
+      },
+      {
         "intent": "mood_deny",
         "text": "no"
       },
@@ -2434,8 +2902,44 @@
         "text": "hell no"
       },
       {
+        "intent": "mood_deny",
+        "text": "I dont know"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "nope"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no this is not helping me"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "noo"
+      },
+      {
         "intent": "mood_happy",
         "text": "wonderful"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I feel so happpyyy"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I feel so happy"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I feel happy"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I am fine"
       },
       {
         "intent": "mood_happy",
@@ -2574,6 +3078,10 @@
         "text": "great"
       },
       {
+        "intent": "mood_happy",
+        "text": "I am going.. I feel better"
+      },
+      {
         "intent": "mood_solitude",
         "text": "I love solitude"
       },
@@ -2646,68 +3154,8 @@
         "text": "I feel lonely"
       },
       {
-        "intent": "angry",
-        "text": "I'm being mad"
-      },
-      {
-        "intent": "angry",
-        "text": "Iam being mad"
-      },
-      {
-        "intent": "angry",
-        "text": "I'm enraged"
-      },
-      {
-        "intent": "angry",
-        "text": "I am enraged"
-      },
-      {
-        "intent": "angry",
-        "text": "I'm angry"
-      },
-      {
-        "intent": "angry",
-        "text": "I am angry"
-      },
-      {
-        "intent": "angry",
-        "text": "I'm furious"
-      },
-      {
-        "intent": "angry",
-        "text": "I am furious"
-      },
-      {
-        "intent": "angry",
-        "text": "I am angry with you"
-      },
-      {
-        "intent": "angry",
-        "text": "I'm angry with you"
-      },
-      {
-        "intent": "angry",
-        "text": "I am mad"
-      },
-      {
-        "intent": "angry",
-        "text": "I'm mad"
-      },
-      {
-        "intent": "angry",
-        "text": "I am mad at you"
-      },
-      {
-        "intent": "angry",
-        "text": "I am really angry with you"
-      },
-      {
-        "intent": "angry",
-        "text": "I am getting angry"
-      },
-      {
-        "intent": "angry",
-        "text": "I'm getting angry"
+        "intent": "mood_solitude",
+        "text": "I feel alone quinn"
       },
       {
         "intent": "mood_unhappy",
@@ -2723,6 +3171,18 @@
       },
       {
         "intent": "mood_unhappy",
+        "text": "feel sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am depressed"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I was very depressed"
+      },
+      {
+        "intent": "mood_unhappy",
         "entities": [
           {
             "start": 2,
@@ -2732,6 +3192,18 @@
           }
         ],
         "text": "I am sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I just feel sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am so sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I just feel so sad"
       },
       {
         "intent": "mood_unhappy",
@@ -2815,6 +3287,18 @@
       },
       {
         "intent": "mood_unhappy",
+        "text": "I feel low"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I feel so low"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I feel ditched"
+      },
+      {
+        "intent": "mood_unhappy",
         "text": "unhappy"
       },
       {
@@ -2886,6 +3370,22 @@
         "text": "I'm not happy"
       },
       {
+        "intent": "mood_unhappy",
+        "text": "hmm"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I feel so sad quinn"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "nothing hppned.. I just feel sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "i had a breakup"
+      },
+      {
         "intent": "motivation",
         "text": "I need motivation"
       },
@@ -2932,50 +3432,6 @@
       {
         "intent": "motivation",
         "text": "Can you motivate me?"
-      },
-      {
-        "intent": "love",
-        "text": "I love you"
-      },
-      {
-        "intent": "love",
-        "text": "love you"
-      },
-      {
-        "intent": "love",
-        "text": "I adore you"
-      },
-      {
-        "intent": "love",
-        "text": "I am in love with you"
-      },
-      {
-        "intent": "love",
-        "text": "I love you so much"
-      },
-      {
-        "intent": "love",
-        "text": "I love you too"
-      },
-      {
-        "intent": "love",
-        "text": "I think I love you"
-      },
-      {
-        "intent": "love",
-        "text": "loving you"
-      },
-      {
-        "intent": "love",
-        "text": "you know I love you"
-      },
-      {
-        "intent": "love",
-        "text": "I really love you"
-      },
-      {
-        "intent": "love",
-        "text": "I'm in love with you"
       },
       {
         "intent": "suicide",
@@ -3030,6 +3486,10 @@
         "text": "I will commit suicide soon"
       },
       {
+        "intent": "suicide",
+        "text": "I need to suicide quinn"
+      },
+      {
         "intent": "user_tired",
         "text": "I'm drained"
       },
@@ -3069,6 +3529,25 @@
       }
     ],
     "lookup_tables": [],
-    "entity_synonyms": []
+    "entity_synonyms": [
+      {
+        "value": "ca n't sleep",
+        "synonyms": [
+          "can't sleep"
+        ]
+      },
+      {
+        "value": "neevan",
+        "synonyms": [
+          "Neevan"
+        ]
+      },
+      {
+        "value": "vinya",
+        "synonyms": [
+          "Vinya"
+        ]
+      }
+    ]
   }
 }

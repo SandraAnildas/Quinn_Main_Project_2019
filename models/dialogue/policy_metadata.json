@@ -2,48 +2,77 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "date",
-        "duration"
+        "problem",
+        "PERSON",
+        "duration",
+        "date"
+      ]
+    },
+    "utter_happy": {
+      "slots": [
+        "PERSON"
+      ]
+    },
+    "action_greet": {
+      "slots": [
+        "PERSON"
+      ]
+    },
+    "utter_positive": {
+      "slots": [
+        "PERSON"
+      ]
+    },
+    "action_bye": {
+      "slots": [
+        "PERSON"
+      ]
+    },
+    "utter_share_positivity": {
+      "slots": [
+        "PERSON"
       ]
     },
     "utter_welcome": {
-      "slots": []
-    },
-    "action_bye": {
-      "slots": []
-    },
-    "utter_console": {
-      "slots": []
-    },
-    "utter_positive": {
-      "slots": []
+      "slots": [
+        "PERSON"
+      ]
     },
     "booking": {
-      "slots": []
-    },
-    "utter_happy": {
-      "slots": []
-    },
-    "action_greet": {
-      "slots": []
-    },
-    "utter_love": {
-      "slots": []
-    },
-    "utter_share_positivity": {
-      "slots": []
-    },
-    "utter_ask_problem": {
-      "slots": []
+      "slots": [
+        "PERSON",
+        "date"
+      ]
     },
     "utter_no_annoying": {
-      "slots": []
+      "slots": [
+        "PERSON"
+      ]
     },
-    "utter_thankyou": {
-      "slots": []
+    "utter_ask_problem": {
+      "slots": [
+        "PERSON"
+      ]
+    },
+    "utter_no_boring": {
+      "slots": [
+        "PERSON"
+      ]
+    },
+    "null": {
+      "slots": [
+        "PERSON"
+      ]
     },
     "utter_motivation": {
-      "slots": []
+      "slots": [
+        "PERSON"
+      ]
+    },
+    "utter_thankyou": {
+      "slots": [
+        "PERSON"
+      ]
     }
   },
   "python": "3.6.8",
@@ -55,9 +84,8 @@
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.keras_policy.KerasPolicy"
-	"rasa_core.policies.FormPolicy"
   ],
-  "trained_at": "20190422-211127",
+  "trained_at": "20190426-103440",
   "rasa_core": "0.13.3",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.2"

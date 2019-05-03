@@ -27,7 +27,7 @@ def run_mentalhealth_online(interpreter,
     data = agent.load_data(training_data_file)
 	
     agent.train(data)
-    interactive.run_interactive_learning(agent, training_data_file)
+    interactive.run_interactive_learning(agent, training_data_file,skip_visualization=True)
     return agent
 
 

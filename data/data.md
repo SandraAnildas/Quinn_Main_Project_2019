@@ -1,6 +1,27 @@
+## intent:talk
+- why aren't you talking to me
+- do you want to chat with me
+- will you talk to me
+- talk to me
+- are you going to talk to me
+- are you talking to me
+- can you chat with me
+- can you speak with me
+- can you talk to me
+- can you talk with me
+- say
+- talk
+- chat with me
+- just chat with me
+- speak to me
+- speak with me
+- talk with me
+- why don't you talk to me
+- you can talk to me
+
 ## intent:angry
 - I'm being mad
-- Iam being mad
+- I am being mad
 - I'm enraged
 - I am enraged
 - I'm angry
@@ -15,6 +36,8 @@
 - I am really angry with you
 - I am getting angry
 - I'm getting angry
+- she ditched me that bitch
+- i need to kill her
 
 ## intent:annoying
 - you are annoying me so much
@@ -49,8 +72,10 @@
 - I need the appointment on [02/08/2019](date)
 - I need it on [01/06/2019](date)
 - I need it on [01/07/2019](date)
+- [25/05/2019](date)
 
 ## intent:appointment
+- I need to make an appointment with my doctor
 - I need an appoinment with my doc
 - Plz book an appointment with my doctor
 - I need an appointment with my doctor
@@ -60,6 +85,13 @@
 - appointment
 - Quinn.. plz book an appointment for me
 - Quinn.. please book an appointment for me
+- I need an appointment
+- I need n appoinment
+- I require an appoinment
+- I require n appoinment
+- Book an appointmnet for me
+- Book an appoinment
+- I need an appointment
 - I need an appointment
 
 ## intent:boring
@@ -89,6 +121,8 @@
 - I [can't get to sleep](problem)
 - I  [get no sleep](problem)
 - I'm [insomniac](problem)
+- I [can't sleep](problem:ca n't sleep)
+- Ihaven't slept for the past 2dys
 
 ## intent:failure_thoughts
 - I always get everything wrong
@@ -101,6 +135,8 @@
 - I fail in everything I do
 - I fail
 - I'm a failure
+- I have been failing in everything I do and I feel so sad
+- I always fail
 
 ## intent:good
 - you are very helpful
@@ -190,6 +226,9 @@
 - okay thank you bye
 - see you tomorrow
 - ok bye
+- bye
+- thanks quinn
+- I need to go.. bye
 
 ## intent:gratitude
 - I thank you
@@ -271,6 +310,10 @@
 - hollllaaaa
 - hey quinn
 - hey
+- hey
+- hey
+- callme [reena](PERSON)
+- hii
 
 ## intent:guilty
 - I feel guilty
@@ -281,6 +324,8 @@
 - I am [guilty](problem)
 - I think I [feel guilty](problem)
 - I [am feeling guilty](problem)
+- I am feeling really guilty
+- I feel so guilty these days
 
 ## intent:headache
 - I get [headache](problem) [often](duration) these days
@@ -338,6 +383,11 @@
 
 ## intent:intro
 - hey!!! This is [Neena](PERSON) here
+- Call me [Jose](PERSON)
+- Call me [Angel](PERSON)
+- Call me [Vinya](PERSON)
+- Call me [Angel](PERSON)
+- Call me [Sandra](PERSON)
 - I'm [Sandra](PERSON)
 - This is [Hectar](PERSON)
 - Myself [Anil](PERSON)
@@ -363,6 +413,11 @@
 - I am [Devika](PERSON)
 - Call me [Arjun](PERSON)
 - [Reshma](PERSON)
+- [Angel](PERSON)
+- [Vinya](PERSON)
+- [Angel](PERSON)
+- [Sandra](PERSON)
+- [Jose](PERSON)
 - [Anju](PERSON)
 - [Nikhila](PERSON)
 - [Mary](PERSON)
@@ -392,6 +447,9 @@
 - name is [Neenu](PERSON)
 - name [Sanjay]](PERSON)
 - I am [Nain](PERSON)
+- I am [Narain](PERSON)
+- I am [Neevan](PERSON:neevan)
+- [Vinya](PERSON:vinya)
 
 ## intent:love
 - I love you
@@ -445,6 +503,12 @@
 - hmm
 - Mmmmm
 - thts cool
+- will try
+- Yaa
+- yaa
+- yaa
+- yup it did
+- kind of
 
 ## intent:mood_deny
 - no
@@ -458,9 +522,18 @@
 - not even a little
 - not even
 - hell no
+- I dont know
+- nope
+- no this is not helping me
+- noo
 
 ## intent:mood_happy
 - wonderful
+- I am great
+- I feel so happpyyy
+- I feel so happy
+- I feel happy
+- I am fine
 - i am happy
 - I am feeling very good
 - I am great
@@ -495,6 +568,7 @@
 - I'm not unhappy
 - I feel positive about everything
 - great
+- I am going.. I feel better
 
 ## intent:mood_solitude
 - I love solitude
@@ -515,10 +589,18 @@
 - I'm really lonely
 - I am feeling lonely
 - I feel lonely
+- I feel alone quinn
 
 ## intent:mood_unhappy
 - my day [was horrible](problem)
+- I feel sad
+- I feel so sad
+- I am depressed
+- I was very depressed
 - I [am sad](problem)
+- I just feel sad
+- I am so sad
+- I just feel so sad
 - I[ don't feel very well](problem)
 - I [am disappointed](problem)
 - I'm not happy
@@ -535,6 +617,9 @@
 - I hate my job
 - I hate my girlfriend
 - I hate my boyfriend
+- I feel low
+- I feel so low
+- I feel ditched
 - unhappy
 - sad
 - bummed
@@ -554,6 +639,9 @@
 - I want to cry
 - I'm not happy
 - hmm
+- I feel so sad quinn
+- nothing hppned.. I just feel sad
+- i had a breakup
 
 ## intent:motivation
 - I need motivation
@@ -594,6 +682,29 @@
 - I'm worn out
 - I'm getting tired
 - I feel tired
+- It was tiring day today
+- I had lots of work to do and I feel so tired today
+- I did lot of work today and feel tired
+- I am getting really tired
+- I am so tired today
+- I am very much tired today
+- I feel so tired today
+- I feel tired today
+- I'm very tired today
+
+##intent:office_problems
+- I got fired
+- My boss fired me
+- 
+
+## synonym:can't sleep
+- can't sleep
+
+## synonym:neevan
+- Neevan
+
+## synonym:vinya
+- Vinya
 
 ## regex:greet
 - h[^\s]*e[^\s]*l[^\s]*l[^\s]*o[^\s]*

@@ -15,6 +15,7 @@ intents:
     - appointment
     - intro
     - goodbye
+    - talk
     - user_input
     - user_question
     - mood_affirm
@@ -60,7 +61,7 @@ templates:
     - text: "Haha.. that's cool.. Humans always find bots to be boring... But wait we love to talk to you so that we can learn a lot of things from you.. You are quite interesting. "
 
   utter_no_annoying:
-    - text:"Sorry dear if you feel so.. I was just trying to help you.."
+    - text: "Sorry dear if you feel so.. I was just trying to help you.."
   
 
   utter_greet:
@@ -96,6 +97,15 @@ templates:
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
       image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.pinimg.com/originals/b7/f6/47/b7f647dce9c5f6f68e6e4ea11d40d2a8.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.pinimg.com/236x/0e/51/2d/0e512d8c737e83d0f0c98547febec734--her-quotes-quotes-for-life.jpg"
+    - text: "Here is something to cheer you up:"
+      image: https://i.pinimg.com/originals/a6/57/5f/a6575f8c5239c88559b7d4850266dc7c.gif"
+    - text: "Here is something to cheer you up:"
+      image: "https://data.whicdn.com/images/59454719/original.jpg"
+      
 
   utter_did_that_help:
     - text: "Did that help you?"
@@ -159,7 +169,7 @@ templates:
     - text: "Do you require an appoinment with your doctor?"
     
   utter_ask_date:
-    - text: "When do need the appointment? Mention the date in(dd/mm/yyy) format"
+    - text: "When do you need the appointment? Mention the date in(dd/mm/yyy) format"
 
   utter_positive_quotes:
     - text: "We must not allow the clock, the calendar, and external pressures to rule our lives and blind us to the fact that each individual moment of our  lives is a beautiful mystery and a miracle – especially those moments we spend in the presence of a loved one."
@@ -189,9 +199,19 @@ templates:
   
   utter_guilty_remedy:
     - text: "Dont feel guilty dear..."
+    
+  utter_antisuicidal:
+    - text: "I am here to listen to you.. I am really worried about you dear"
+    - text: "I’m so glad you told me that you’re thinking of suicide."
+    - text: "I’m sad you’re hurting like this."
+    
+  utter_am_here:
+    - text: " Oh sorry dear... I am here to talk to you..." 
   
   
 actions:
+    - utter_am_here
+    - utter_antisuicidal
     - utter_solitude_quotes
     - utter_sleep_remedy
     - utter_headache_remedy

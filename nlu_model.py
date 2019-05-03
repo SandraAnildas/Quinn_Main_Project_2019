@@ -16,7 +16,6 @@ def train_nlu(data, configs, model_dir):
 	model_directory = trainer.persist(model_dir, fixed_model_name = 'counselingnlu')
 	
 def run_nlu(): 
-
 	interpreter = Interpreter.load('./models/nlu/default/counselingnlu')
 	print(interpreter.parse(u"Call me Sandra"))
 	

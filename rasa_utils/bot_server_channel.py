@@ -61,9 +61,7 @@ class BotServerOutputChannel(OutputChannel):
 
     def send_text_message(self, recipient_id, message):
         for message_part in message.split("\n\n"):
-            self.message_store.log(
-                recipient_id, "bot", {"type": "text", "text": message_part}
-            )
+            self.message_store.log(recipient_id, "bot", {"type": "text", "text": message_part})
 
     def send_text_with_buttons(self, recipient_id, message, buttons, **kwargs):
         # type: (Text, Text, List[Dict[Text, Any]], **Any) -> None

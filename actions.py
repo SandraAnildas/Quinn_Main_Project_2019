@@ -9,6 +9,7 @@ import urllib.request
 import json
 import smtplib
 import pymysql
+import datetime
 from rasa_core_sdk import Action
 from rasa_core_sdk.executor import CollectingDispatcher
 from rasa_core_sdk.forms import FormAction, REQUESTED_SLOT
@@ -56,45 +57,62 @@ class BookAppointment(Action):
 	def name(self):
 		return 'booking'
 		
-	def run(self, dispatcher, tracker, domain):
-		
-		
-		
+	def run(self, dispatcher, tracker, domain):		
 		db = pymysql.connect('localhost', 'root','','quinn_doctor')
-		#dispatcher.utter_message(db)	
 		cursor = db.cursor()
 		app_date = str(tracker.get_slot('date'))
-		person_name = str(tracker.get_slot('PERSON'))
-		
-		
-		sql = ("""INSERT INTO appointment(patient_name,date) VALUES(%s,%s)""",(person_name,app_date))
-		#cursor.execute(*sql)
-	
+		person_name = str(tracker.get_slot('PERSON'))		
+		date_format = '%d/%m/%Y'
 		try:
-			if(cursor.execute(*sql)):
-				db.commit()
-				sql1=("""Select token from appointment where patient_name=%s and date=%s""",(person_name,app_date))
-				if(cursor.execute(*sql1)):
-					value = cursor.fetchone()
-					token= str(value[0])
-					response="""Your appointment on {} is confirmed. Your token is {}...""".format(app_date,token)
-					dispatcher.utter_message(response)
-					return [SlotSet('date',date)]
-				else:
+			datetime.datetime.strptime(app_date, date_format)		
+			sql=("""SELECT token FROM appointment WHERE patient_name=%s and date=%s""",(person_name,app_date))				
+			try:
+				cursor.execute(*sql)
+				print(cursor.rowcount)
+				if(cursor.rowcount>0):
+					print(cursor.rowcount)
 					response="""Sorry your appointment can't be made on {}. Kindly specify another date""".format(app_date)
-					dispatcher.utter_template('utter_ask_date',tracker)
 					dispatcher.utter_message(response)
-					return [SlotSet('date',None)]				
-			else:
-				response="""Sorry your appointment can't be made on {}. Kindly specify another date""".format(app_date)
-				dispatcher.utter_message(response)				
-				dispatcher.utter_template('utter_ask_date',tracker)
+					dispatcher.utter_template('utter_ask_date',tracker)				
+					return [SlotSet('date',None)]
+				else:
+				
+					
+					sql1= ("""SELECT MAX(token) FROM appointment WHERE date=%s""",(app_date))
+					if(cursor.execute(*sql1)):
+						value = cursor.fetchone()
+						token= str(value[0])
+						if(token==10):
+							response="""Appointments on this day reached its limit..."""
+							dispatcher.utter_message(response)
+							dispatcher.utter_template('utter_ask_date',tracker)
+							return [SlotSet('date',None)]
+						else:
+							sql2= ("""INSERT INTO appointment(patient_name,date) VALUES(%s,%s)""",(person_name,app_date))
+							if(cursor.execute(*sql2)):
+								db.commit()
+								print(token)
+								sql3= ("""Select token from appointment where patient_name=%s and date=%s""",(person_name,app_date))
+								if(cursor.execute(*sql3)):
+									value = cursor.fetchone()
+									token= str(value[0])
+									response="""Your appointment on {} is confirmed. Your token is {}...""".format(app_date,token)
+									dispatcher.utter_message(response)
+									return [SlotSet('date',date)]
+								else:
+									response="""Sorry your appointment can't be made on {}. Kindly specify another date""".format(app_date)
+									dispatcher.utter_message(response)
+									dispatcher.utter_template('utter_ask_date',tracker)
+									return [SlotSet('date',None)]
+			except:
+				dispatcher.utter_message("")
 				return [SlotSet('date',None)]
-		except:
-			dispatcher.utter_message("Error...")
+			finally:
+				db.close()
+		except ValueError:
+			dispatcher.utter_message("Date has not been put in correct format")
+			dispatcher.utter_template('utter_ask_date',tracker)
 			return [SlotSet('date',None)]
-		finally:
-			db.close()
 			
 		return []
 		

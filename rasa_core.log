@@ -16,3 +16,44 @@ Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
 Rasa Core server is up and running on http://localhost:5005
 Failed to run custom action 'action_greet'. Couldn't connect to the server at 'http://localhost:50455/webhook/'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=50455): Max retries exceeded with url: /webhook/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002120C423940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
 Encountered an exception while running action 'action_greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+b'hello'
+b'call me Neena'
+Encountered an exception while running action 'action_greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+b'hello'
+b'call me neena'
+Encountered an exception while running action 'action_greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+b'Call me Neena'
+b'hey'
+b'Call me neena'
+Encountered an exception while running action 'action_greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+b'hey'
+b'Call me quinn'
+Failed to run custom action 'action_greet'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+b'fine'
+b'thanks quinn'
+Failed to run custom action 'action_bye'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_bye'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+b'thnk you'
+b'I need motivtion'
+b'I feel sad'
+b'I feel low'
+b'I need an appointment'
+b'Call me Jose'
+b'Call me Neena'
+b'hellloo'
+b'Call me Neena'
+Failed to run custom action 'action_greet'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.

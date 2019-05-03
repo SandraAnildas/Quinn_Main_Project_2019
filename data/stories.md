@@ -53,7 +53,10 @@
 	- utter_ask_date
 	- booking
 
-	
+##story14
+* talk
+	- utter_am_here
+		
 ## Generated Story -7799376897993237984
 * greet
 	- slot{"PERSON": null}
@@ -415,4 +418,94 @@
     - utter_positive_quotes
 * gratitude
     - utter_welcome
+
+## Generated Story 332114035380546765
+* appointment
+    - utter_ask_name
+* intro{"PERSON": "Narain"}
+    - slot{"PERSON": "Narain"}
+
+## Generated Story -3361879190064140024
+* greet
+    - utter_ask_name
+* intro{"PERSON": "neevan"}
+    - slot{"PERSON": "neevan"}
+    - action_greet
+    - slot{"PERSON": "neevan"}
+* appointment
+    - utter_ask_date
+* app_date{"date": "25/05/2019"}
+    - slot{"date": "25/05/2019"}
+    - booking
+    - slot{"date": null}
+
+## Generated Story -5798303597244665322
+* mood_solitude
+    - utter_ask_problem
+* mood_deny
+    - utter_console
+    - utter_solitude_quotes
+    - utter_did_that_help
+* mood_affirm
+    - utter_ask_motivation
+* mood_deny
+    - utter_chit_chat
+* mood_happy
+    - utter_happy
+* goodbye
+    - action_bye
+
+## Generated Story -1615813802254072475
+* greet
+    - utter_ask_name
+* greet{"PERSON": "reena"}
+    - slot{"PERSON": "reena"}
+    - action_greet
+    - slot{"PERSON": "reena"}
+* cant_sleep{"problem": "ca n't sleep"}
+    - slot{"problem": "ca n't sleep"}
+    - utter_ask_problem
+* cant_sleep
+    - utter_sleep_remedy
+    - utter_did_that_help
+* mood_affirm
+    - utter_happy
+
+## Generated Story -5523069635515734444
+* greet
+    - utter_ask_name
+* intro{"PERSON": "vinya"}
+    - slot{"PERSON": "vinya"}
+    - action_greet
+    - slot{"PERSON": "vinya"}
+* mood_unhappy
+    - utter_ask_problem
+* mood_unhappy
+    - utter_console
+* mood_affirm
+    - utter_share_positivity
+* mood_affirm
+    - utter_positive_quotes
+    - utter_did_that_help
+* mood_affirm
+    - utter_happy
+* goodbye
+    - action_bye
+
+## Generated Story -5415988232136063794
+* mood_unhappy
+    - utter_ask_problem
+* angry
+    - utter_console
+* angry
+    - utter_share_positivity
+* mood_deny
+    - utter_cheer_up
+    - utter_did_that_help
+* mood_affirm
+    - utter_ask_motivation
+* mood_deny
+    - utter_chit_chat
+* goodbye
+    - action_bye
 
