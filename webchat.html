@@ -14,23 +14,68 @@
 					transform: scale(1);
 				}
 		}
+		.container {
+			margin-right:20em;
+				
+		}
+		.human-heart {
+		 
+		  animation: .8s infinite beatHeart;
+		}
+
+		@keyframes beatHeart {
+		  0% {
+			transform: scale(1);
+		  }
+		  25% {
+			transform: scale(1.1);
+		  }
+		  40% {
+			transform: scale(1);
+		  }
+		  60% {
+			transform: scale(1.1);
+		  }
+		  100% {
+			transform: scale(1);
+		  }
+		}
 		#quinn {
+			size: 100px
 			border-radius: 30%;
+			height:400px;
+			width:400px;
 			float:left;
-			float:top;
+			    margin-top: 119px;
+    
+    margin-left: 2px;
 			<!--animation: bounceIn 10s;-->
 		}
-		#intro p{
+		#id1{
 			color:white;
 			font-size: 8em;
-			margin-top:1em;
+			margin-right:3em;
+			
+		}
+		#id2{
+			        color: white;
+    margin-top: -117px;
+    margin-left: -310px;
+    margin-right: 265px;
+}
 		}
 	</style>
 </head>
 
 <body background="C:\Users\Hp\Downloads\im.png">
 	<img id="quinn" src="C:\Users\Hp\Desktop\Quinn\Quinn.png" alt="Avatar">
-	<div id="intro"><p color="white">Quinn</p></div>
+	<div id="intro" align="center">
+			<h1 id="id1" color="white">Quinn</h1>
+			<h2 id="id2" text-align="center">Your New Bot Friend</h2>
+	<div class="container">
+			<img src="https://pngheart.com/wp-content/uploads/2019/01/red-heart-png-324x324.png" class="human-heart" alt="human heart" />
+	</div>
+	</div>
 	<div id="webchat"/>
 	<script src="https://storage.googleapis.com/mrbot-cdn/webchat-0.5.7.js"></script>
 	<script>
@@ -47,8 +92,8 @@
 		connectingText: "Waiting for server...",
 		hideWhenNotConnected: false,
 		fullScreenMode: false,
-		profileAvatar: "Quinn/Quinn.png",
-		openLauncherImage: 'myCustomOpenImage.png',
+		profileAvatar: "C:/Users/Hp/Desktop/Quinn/Quinn.png",
+		openLauncherImage: 'https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/chat-circle-blue-512.png',
 		closeLauncherImage: 'myCustomCloseImage.png',
 		params: {
 		  images: {

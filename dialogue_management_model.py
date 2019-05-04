@@ -8,30 +8,28 @@ import rasa_core
 from rasa_core.agent import Agent
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
+from rasa_core.policies.fallback import FallbackPolicy
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.utils import EndpointConfig
 from rasa_core.run import serve_application
 from rasa_core import config
-from rasa_core.policies import Policy, FormPolicy
+from rasa_core.policies import Policy, FormPolicy 
 
 logger = logging.getLogger(__name__)
 
 def train_dialogue(domain_file = 'mentalhealth_domain.yml',
 					model_path = './models/dialogue',
 					training_data_file = './data/stories.md'):
-					
-	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy(max_history=3, epochs=500, batch_size=50)])
+	fallback = FallbackPolicy(fallback_action_name="action_default_fallback",core_threshold=0.1, nlu_threshold=0.1)
+	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy(max_history=3, epochs=500, batch_size=50), FormPolicy(),fallback])
 	data = agent.load_data(training_data_file)	
-	
-
-	agent.train(data)
-				
+	agent.train(data)			
 	agent.persist(model_path)
 	return agent
 	
 def run_mentalhealth_bot(serve_forever=True):
 	interpreter = RasaNLUInterpreter('./models/nlu/default/counselingnlu')
-	action_endpoint = EndpointConfig(url="http://localhost:50455/webhook")
+	action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 	agent = Agent.load('./models/dialogue', interpreter=interpreter, action_endpoint=action_endpoint)
 	rasa_core.run.serve_application(agent ,channel='cmdline')
 		
@@ -39,4 +37,4 @@ def run_mentalhealth_bot(serve_forever=True):
 	
 if __name__ == '__main__':
 	train_dialogue()
-	run_mentalhealth_bot()
+	#run_mentalhealth_bot()

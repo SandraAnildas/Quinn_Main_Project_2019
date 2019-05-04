@@ -4,12 +4,23 @@ slots:
   duration:
     type: text
   PERSON:
-    type: text
+    type: unfeaturized
   date:
-    type: text
+    type: unfeaturized
 
+forms:
+  - booking
+  
     
 intents:
+    - sick
+    - nothingmuch
+    - breakup
+    - good
+    - bad
+    - birthday
+    - whoareyou
+    - whoisyourparent
     - greet
     - app_date
     - appointment
@@ -33,12 +44,11 @@ intents:
     - mood_solitude
     - annoying
     - boring
-    - good
+    - compliment
     - angry
     - love
     - help
-    
-
+   
 
 entities:
     - problem
@@ -48,6 +58,18 @@ entities:
 
  
 templates:
+  utter_default:
+    - text: "Sorry dear, I didn’t understand that"
+    
+  utter_bot_intro:
+    - text: "Hi I am Quinn.. I am here to be your friend and I love talking to you.."
+    
+  utter_parent:
+    - text: "I have only one parent. And she is Sandra... She coded me"
+    
+  utter_birthdate:
+    - text: "I was born on Jan 01 2019..."
+    
   utter_ask_name:
     - text: "What should I call you dear?"
   
@@ -63,7 +85,6 @@ templates:
   utter_no_annoying:
     - text: "Sorry dear if you feel so.. I was just trying to help you.."
   
-
   utter_greet:
     - Hello! {PERSON}...
     - Hey!!!{PERSON} What's up?
@@ -81,6 +102,15 @@ templates:
   utter_welcome:
     - You're welcome
     - Never Mention Dear!!
+    - that's my pleasure
+    - My pleasure
+    - Anytime
+    - Welcome
+    - You're Welcome
+    - Sure Welcome
+    - Welcome here
+    - You're so welcome
+    - Anything you want
     
   utter_goodbye:
     - Talk to you later.
@@ -112,6 +142,8 @@ templates:
 
   utter_happy:
     - text: "Great carry on!"
+    - text: "That sounds good.. Be happy always"
+    - text: "Always stay happy.. and keep smiling"
     
   utter_console:
     - It's okay dear... This too shall pass
@@ -210,6 +242,9 @@ templates:
   
   
 actions:
+    - utter_birthdate
+    - utter_bot_intro
+    - utter_parent
     - utter_am_here
     - utter_antisuicidal
     - utter_solitude_quotes
@@ -243,9 +278,10 @@ actions:
     - utter_no_annoying
     - utter_no_boring
     - utter_thankyou
+    - utter_default
     - action_greet
     - action_bye
     - utter_ask_name
     - sendmail
-    - booking
+    
     

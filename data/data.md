@@ -1,24 +1,3 @@
-## intent:talk
-- why aren't you talking to me
-- do you want to chat with me
-- will you talk to me
-- talk to me
-- are you going to talk to me
-- are you talking to me
-- can you chat with me
-- can you speak with me
-- can you talk to me
-- can you talk with me
-- say
-- talk
-- chat with me
-- just chat with me
-- speak to me
-- speak with me
-- talk with me
-- why don't you talk to me
-- you can talk to me
-
 ## intent:angry
 - I'm being mad
 - I am being mad
@@ -73,6 +52,11 @@
 - I need it on [01/06/2019](date)
 - I need it on [01/07/2019](date)
 - [25/05/2019](date)
+- I need it on [25/05/2019](date)
+- [25/09/2019](date)
+- I need an appointment on [25/05/2019](date)
+- [555/222/22222](date)
+- [25/06/2019](date)
 
 ## intent:appointment
 - I need to make an appointment with my doctor
@@ -93,6 +77,70 @@
 - Book an appoinment
 - I need an appointment
 - I need an appointment
+- I need an appointment
+- I need an appointment
+- I need an appointment
+
+## intent:bad
+- pretty bad
+- not good enough
+- that was lame
+- that was terrible
+- it is bad
+- that's bad
+- this is bad
+- not good
+- I'm afraid it's bad
+- no it's bad
+- that was awful
+- bad
+- so bad
+- this is too bad
+- terrible
+- horrible
+- horrific
+- abysmal
+- it's bad
+- no good
+- that was bad
+- that was horrible
+- that's lame
+- that's not good
+- that's terrible
+- that's too bad
+- this is not good
+- too bad
+- very bad
+- bad girl
+- it's not good
+- not so good
+- it's very bad
+- it's too bad
+
+## intent:birthday
+- your birth date
+- when is your birthday
+- when do you celebrate your birthday
+- when do you have birthday
+- date of your birthday
+- when were you born
+- what's your birthday
+- When were you born?
+- Birthdate?
+- Wen is ur birthday?
+- when is your b'day
+- when do you have your b'day
+- when is your bday
+- when is ur bday
+- Tell me your birthday
+- ur birth date
+- when is ur birthday
+- when do u celebrate your birthday
+- when do u have birthday
+- date of ur birthday
+- when were u born?
+- what's ur birthday
+- When were u born?
 
 ## intent:boring
 - you are boring
@@ -102,6 +150,21 @@
 - you're incredibly boring
 - you are boring me
 - you are very boring
+
+## intent:breakup
+- I broke up with my friends
+- I broke up with my girlfriend
+- I had a break up
+- I got a break up
+- I and my girlfriend broke up
+- I and my boyfriend broke up
+- My girlfriend broke up
+- My boyfriend broke up
+- I broke with my friend
+- I broke up with a friend of mine
+- I divorced my husband
+- I divorced my wife
+- I fought with my friends
 
 ## intent:cant_sleep
 - I [can't sleep](problem)
@@ -124,21 +187,7 @@
 - I [can't sleep](problem:ca n't sleep)
 - Ihaven't slept for the past 2dys
 
-## intent:failure_thoughts
-- I always get everything wrong
-- i quit
-- i am a complete failure
-- I always fail
-- I am a failure
-- I'm a failure
-- I am sick of getting failed
-- I fail in everything I do
-- I fail
-- I'm a failure
-- I have been failing in everything I do and I feel so sad
-- I always fail
-
-## intent:good
+## intent:compliment
 - you are very helpful
 - you are the best
 - you're a true professional
@@ -185,6 +234,129 @@
 - let's tell everyone that you are awesome
 - you are really amazing
 
+## intent:failure_thoughts
+- I always get everything wrong
+- i quit
+- i am a complete failure
+- I always fail
+- I am a failure
+- I'm a failure
+- I am sick of getting failed
+- I fail in everything I do
+- I fail
+- I'm a failure
+- I have been failing in everything I do and I feel so sad
+- I always fail
+- I always go wrong.
+- I'm always wrong
+- I'm a mistake
+- I am a mistake
+- I'm a fault
+- I'm an error.
+- I'm a big mistake
+- I'm a major failure
+- I am a major failure
+- I am a big mistake
+
+## intent:good
+- so cool
+- cool
+- that is good
+- glad to hear that
+- that's very nice of you
+- terrific
+- it's amazing
+- that's awesome
+- perfect
+- excellent
+- brilliant
+- that's great
+- it's good
+- it's great
+- fine
+- good
+- nice
+- that's fine
+- very good
+- amazing
+- fantastic
+- great
+- good very good
+- that's very good
+- really good
+- it is fine
+- it is good
+- it's great
+- it's perfect
+- much better
+- not bad
+- not too bad
+- it's very good
+- marvelous
+- that's nice
+- pleasant
+- pretty good
+- really nice
+- splendid
+- straight
+- super
+- super fantastic
+- sweet
+- really well
+- very well
+- that is awesome
+- that is nice
+- that is wonderful
+- that was amazing
+- that was awesome
+- that was cute
+- that was pretty good
+- that was very good
+- that's a good idea
+- that's a good thing
+- that's amazing
+- that's awesome thank you
+- that's better
+- that's cute
+- that's fantastic
+- that's much better
+- that's nice of you
+- that's not bad
+- that's perfect
+- that's pretty good
+- that's really good
+- that's really nice
+- that's sweet of you
+- that's very nice
+- that's wonderful
+- this is awesome
+- this is good
+- this is great
+- very nice
+- very then
+- wonderful
+- I'm glad to hear that
+- ok good
+- good for you
+- good to know
+- glad to hear it
+- so good
+- so nice of you
+- so sweet of you
+- it was good
+- oh well
+- good thing
+- that was good
+- it's awesome
+- okay good
+- it's fine
+- no it's okay
+- that's great
+- very nice
+- it's very good
+- that's fine
+- Wow..thtz cool
+
 ## intent:goodbye
 - goodbye
 - bye
@@ -229,6 +401,9 @@
 - bye
 - thanks quinn
 - I need to go.. bye
+- I have some work to do.. I am going..See you later
+- bye
+- gtg bye
 
 ## intent:gratitude
 - I thank you
@@ -276,6 +451,10 @@
 - thank you
 - thanx
 - Thnx
+- thank you quinn
+- Thank you so much Quinn!!! Tahnk you for being there
+- thanks quinn
+- thnks quinn
 
 ## intent:greet
 - Hello
@@ -314,6 +493,11 @@
 - hey
 - callme [reena](PERSON)
 - hii
+- hi
+- hi
+- hi
+- hey
+- hey
 
 ## intent:guilty
 - I feel guilty
@@ -450,6 +634,11 @@
 - I am [Narain](PERSON)
 - I am [Neevan](PERSON:neevan)
 - [Vinya](PERSON:vinya)
+- Call me [Sheheen](PERSON)
+- Call me [Thulasi](PERSON)
+- Call me [Anoop](PERSON:anoop)
+- Call me [Basi](PERSON:basi)
+- Hi quinn...Call me [Neena](PERSON:neena)
 
 ## intent:love
 - I love you
@@ -463,6 +652,27 @@
 - you know I love you
 - I really love you
 - I'm in love with you
+- I luv you
+- I luv u
+- I am in luv with u
+- I love you so much
+- I love to love you
+- Luv u
+- luv you
+- I love you
+
+## intent:marry
+- let's get married
+- would you like to marry me
+- marry me
+- I love you marry me
+- marry me please
+- we should marry
+- I want to marry you
+- you are my wife
+- be my wife
+- let us get married
+- Coe, let's get married
 
 ## intent:mood_affirm
 - yep
@@ -509,6 +719,8 @@
 - yaa
 - yup it did
 - kind of
+- will surely try that
+- yup
 
 ## intent:mood_deny
 - no
@@ -526,9 +738,14 @@
 - nope
 - no this is not helping me
 - noo
+- nope
 
 ## intent:mood_happy
 - wonderful
+- I felt so happy today
+- I am happy today
+- The day was fine
+- It is fine
 - I am great
 - I feel so happpyyy
 - I feel so happy
@@ -569,6 +786,26 @@
 - I feel positive about everything
 - great
 - I am going.. I feel better
+- I m very happy today..
+- I am doing good
+
+## intent:mood_idle
+- Simply sitting
+- I'm idle
+- I'm inactive
+- Just sitting
+- Just sitting down
+- I am doing nothing
+- I don't do anything
+- I don't do anything.
+- I'm not doing anything
+- I can't do anything
+- doing nothing
+- not doing anything
+- I am just sitting simply
+- I feel empty.. I have nothing to do
+- I feel tht I don't have anything to do
+- I don't feel like doing anything
 
 ## intent:mood_solitude
 - I love solitude
@@ -590,10 +827,15 @@
 - I am feeling lonely
 - I feel lonely
 - I feel alone quinn
+- Quinn I feel so lonely these days
 
 ## intent:mood_unhappy
 - my day [was horrible](problem)
 - I feel sad
+- not good
+- not happy
+- it was bad
+- not so good
 - I feel so sad
 - I am depressed
 - I was very depressed
@@ -641,7 +883,6 @@
 - hmm
 - I feel so sad quinn
 - nothing hppned.. I just feel sad
-- i had a breakup
 
 ## intent:motivation
 - I need motivation
@@ -656,9 +897,110 @@
 - Give me some motivation
 - Can you just motivate me?
 - Can you motivate me?
+- I really need some motivation
+- I need to be motivated
+- I have to be motivated
+- I need to get motivated
+- Can you inspire me?
+- Can you make me feel motivated?
+- Can you give me motivation?
+- Can you get me motivated?
+- Can you make me motivated?
+- Can you just get me motivated?
+- Can you simply motivate me?
+- Can you just inspire me?
+- Can you just make me feel motivated?
+
+## intent:nothingmuch
+- There's nothing much
+- Nothing very much
+- There is nothing very much
+- There is nothing much
+- There is nothing too much
+- Nothing much
+- Not much to talk about
+- Nothing so great that happened today
+- It was a normal day
+- No much to talk about
+- It was okay
+- It was an okay day
+- ok ok
+- okay okay
+- Nothing much
+- Nothing much
+
+## intent:office_problems
+- I got fired
+- My boss fired me
+- I have been fired
+- I was fired
+- I've lost my job
+- I have lost my job
+- I was losing my job
+- I'm not satisfied with my job. So I'm leaving
+- I'm not pleased with my job. I'm quitting
+- I'm not satisfied with my work. So I'm quitting
+- I'm not pleased with my work. I'm quitting.
+- I'm not happy about my job. So I stopped
+- I'm not happy with my job.
+- I'm not satisfied with my job, so I'm leaving
+- I'm not happy with my job, so I'm leaving
+- I'm not pleased with my job, so I'm leaving
+
+## intent:sick
+- I am not feeling well
+- I feel unwell
+- I dont feel well
+- I'm not feeling well
+- I am having [fever](problem)
+- I have [fever](problem)
+- I had [fever](problem) last night
+- I have been having [fever](problem) since morning
+- I am having [cold](problem)
+- I have [cold](problem)
+- I had [cold](problem) last night
+- I have been having [cold](problem) since morning
+- I am having a bad [fever](problem)
+- I am having a bad [cold](problem)
+- I am having [jaundice](problem)
+- I have [jaundice](problem)
+- I had [jaundice](problem) last night
+- I have been having [jaundice](problem) since morning
+- I am having [stomach pain](problem)
+- I have [stomach pin](problem)
+- I had [stomach pain](problem) last night
+- I have been having [stomach pain](problem) since morning
+- I am having a bad [jaundince](problem)
+- I am having a bad [stomach pain](problem)
+- My [stomach is upset](problem)
+- My [stomach is disturbed](problem)
+- My [belly is upset](problem)
+- My [stomach is angry](problem)
+- My [stomach is annoyed](problem)
+- I having [skin allergy](problem)
+- I am having [cough](problem)
+- I have [cough](problem)
+- I had [cough](problem) last night
+- I have been having [cough](problem) since morning
+- [loose motion](problem)
+- [cough](problem)
 
 ## intent:suicide
+- I am having suicidal thoughts
+- I dont to live
+- I dont wanna live
+- I don't want to live
 - I don't feel like living
+- I don't want to live
+- I don't think I want to live
+- I don't like to live
+- I want to commit suicide
+- I would like to commit suicide
+- I want to kill myself
+- I'm going to kill myself
+- I am going to kill myself
+- I'm about to kill myself
+- I'm going to kill me
 - I have suicidal thoughts
 - I get suicidal thoughts
 - I wish to suicide
@@ -672,6 +1014,28 @@
 - I will die sooon
 - I will commit suicide soon
 - I need to suicide quinn
+- I dont wanna live quinn
+
+## intent:talk
+- why aren't you talking to me
+- do you want to chat with me
+- will you talk to me
+- talk to me
+- are you going to talk to me
+- are you talking to me
+- can you chat with me
+- can you speak with me
+- can you talk to me
+- can you talk with me
+- say
+- talk
+- chat with me
+- just chat with me
+- speak to me
+- speak with me
+- talk with me
+- why don't you talk to me
+- you can talk to me
 
 ## intent:user_tired
 - I'm drained
@@ -692,10 +1056,76 @@
 - I feel tired today
 - I'm very tired today
 
-##intent:office_problems
-- I got fired
-- My boss fired me
-- 
+## intent:whoareyou
+- Who are you?
+- What is your name?
+- What should I call you?
+- What can I call you?
+- What's is your name?
+- Your name?
+- Your name please?
+- Your name..
+- Tell me your name
+- Please tell me your name
+- Plz Say your name
+- Reveal your name
+- What should I call you dear?
+- tell me about your personality
+- why are you here
+- talk about yourself
+- tell me some stuff about you
+- talk some stuff about yourself
+- I want to know you better
+- I want to know more about you
+- who are you
+- tell me about yourself
+- tell me about you
+- about yourself
+- describe yourself
+- introduce yourself
+- say about you
+- what are you
+- define yourself
+- what is your personality
+- all about you
+
+## intent:whoisyourparent
+- What is your mother's name
+- What's is your mother's name
+- Watz ur mother's name
+- What is your mom's name
+- What's is your mom's name
+- Watz ur mom's name
+- Who is your mother?
+- Who is your mom?
+- Who's your mother?
+- Who's your mom?
+- Who is ur mother?
+- who is ur mom?
+- Who is your parents?
+- Who is your parent?
+- Who is ur parent?
+- What is your father's name
+- What's is your father's name
+- Watz ur father's name
+- What is your papa's name
+- What's is your papa's name
+- Watz ur papa's name
+- Who is your father?
+- Who is your daddy?
+- Who's your father?
+- Who's your daddy?
+- Who is ur daddy?
+- who is ur daddy?
+- Tell me your parent's name
+- Tell me your mother's name
+- Tell me your father's name
+
+## synonym:anoop
+- Anoop
+
+## synonym:basi
+- Basi
 
 ## synonym:can't sleep
 - can't sleep

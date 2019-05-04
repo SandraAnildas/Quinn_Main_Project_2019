@@ -1,96 +1,119 @@
 %YAML 1.1
 ---
 actions:
-- utter_happy
-- utter_ask_abt_day
-- utter_chit_chat
-- utter_welcome
-- utter_cheer_up
-- booking
-- utter_motivation
-- utter_solitude_quotes
+- utter_bot_intro
 - utter_positive
+- utter_parent
+- utter_default
+- utter_greet
+- utter_console
+- utter_ask_name
+- sendmail
+- utter_did_that_help
+- utter_no_boring
+- utter_thankyou
+- utter_love
+- utter_suggest_music
+- utter_ask_motivation
+- utter_headache_remedy
+- utter_ask_date
+- utter_affirm
+- utter_help
+- utter_birthdate
+- action_bye
+- utter_appointment
+- utter_no_annoying
+- utter_antisuicidal
+- utter_chit_chat
+- utter_solitude_quotes
+- utter_happy
+- utter_motivation
+- utter_am_here
+- utter_welcome
+- action_greet
+- utter_winning_quotes
+- utter_ask_abt_day
+- utter_cheer_up
 - utter_positive_quotes
 - utter_guilty_remedy
-- utter_what_music
-- utter_ask_date
-- utter_help
-- utter_share_positivity
-- sendmail
-- utter_console
-- utter_winning_quotes
-- utter_ask_motivation
-- utter_no_annoying
-- utter_ask_name
-- utter_appointment
-- utter_no_boring
-- utter_ask_problem
-- action_bye
-- utter_headache_remedy
-- utter_suggest_music
-- action_greet
-- utter_affirm
 - utter_lonely_response
-- utter_love
+- utter_ask_problem
+- utter_share_positivity
 - utter_sleep_remedy
-- utter_did_that_help
-- utter_thankyou
-- utter_greet
+- utter_what_music
 - utter_goodbye
 entities:
 - problem
-- PERSON
 - duration
 - date
+- PERSON
+forms:
+- booking
 intents:
+- intro
 - mood_affirm
+- suicide
+- gratitude
 - mood_deny
-- goodbye
-- mood_unhappy
-- angry
+- nothingmuch
+- breakup
+- good
+- bad
+- birthday
+- whoareyou
+- whoisyourparent
 - greet
 - app_date
 - appointment
-- intro
+- goodbye
+- talk
 - user_input
 - user_question
 - mood_happy
+- mood_unhappy
 - mood_idle
 - cant_sleep
 - headache
-- gratitude
-- suicide
 - failure_thoughts
 - guilty
 - motivation
 - mood_solitude
 - annoying
 - boring
-- good
+- compliment
+- angry
 - love
 - help
 slots:
   PERSON:
-    type: text
+    type: unfeaturized
   date:
-    type: text
+    type: unfeaturized
   duration:
     type: text
   problem:
     type: text
+  requested_slot:
+    type: unfeaturized
 templates:
   utter_affirm:
   - text: Alright!
   - text: Nice!
   - text: Okay :)
   - text: Cool
+  utter_am_here:
+  - text: ' Oh sorry dear... I am here to talk to you...'
+  utter_antisuicidal:
+  - text: I am here to listen to you.. I am really worried about you dear
+  - text: I’m so glad you told me that you’re thinking of suicide.
+  - text: I’m sad you’re hurting like this.
   utter_appointment:
   - text: Do you require an appoinment with your doctor?
   utter_ask_abt_day:
   - text: How are you doing?
   - text: How is the day?
   utter_ask_date:
-  - text: When do need the appointment? Mention the date in(dd/mm/yyy) format
+  - text: When do you need the appointment? Mention the date in(dd/mm/yyy) format
   utter_ask_motivation:
   - text: Do you need any motivation?
   utter_ask_name:
@@ -100,8 +123,20 @@ templates:
   - text: Why do you feel so dear?
   - text: Tell me what happened...
   - text: What happened dear?
+  utter_birthdate:
+  - text: I was born on Jan 01 2019...
+  utter_bot_intro:
+  - text: Hi I am Quinn.. I am here to be your friend and I love talking to you..
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  - image: https://i.pinimg.com/originals/b7/f6/47/b7f647dce9c5f6f68e6e4ea11d40d2a8.jpg
+    text: 'Here is something to cheer you up:'
+  - image: https://i.pinimg.com/236x/0e/51/2d/0e512d8c737e83d0f0c98547febec734--her-quotes-quotes-for-life.jpg
+    text: 'Here is something to cheer you up:'
+  - image: https://i.pinimg.com/originals/a6/57/5f/a6575f8c5239c88559b7d4850266dc7c.gif"
+    text: 'Here is something to cheer you up:'
+  - image: https://data.whicdn.com/images/59454719/original.jpg
     text: 'Here is something to cheer you up:'
   utter_chit_chat:
   - text: What are you doing now?
@@ -109,6 +144,8 @@ templates:
   - text: It's okay dear... This too shall pass
   - text: I know this is tough... But every problem has a solution
   - text: Relax dear... things will get better
+  utter_default:
+  - text: Sorry dear, I didn’t understand that
   utter_did_that_help:
   - text: Did that help you?
   utter_explain_more:
@@ -126,6 +163,8 @@ templates:
   - text: Dont feel guilty dear...
   utter_happy:
   - text: Great carry on!
+  - text: That sounds good.. Be happy always
+  - text: Always stay happy.. and keep smiling
   utter_headache_remedy:
   - text: If you’ve been awake for more than 20 minutes, get out of bed and do a quiet,
       non-stimulating activity, such as reading a book. Keep the lights dim and avoid
@@ -156,11 +195,13 @@ templates:
   - text: I have something here to motivate you url:"https://www.youtube.com/watch?v=tC2l--VdjMY"
   - text: This may help you url:"https://www.youtube.com/watch?v=fiutY4ojZUQ"
   utter_no_annoying:
-  - text: text:"Sorry dear if you feel so.. I was just trying to help you.."
+  - text: Sorry dear if you feel so.. I was just trying to help you..
   utter_no_boring:
   - text: "Haha.. that's cool.. Humans always find bots to be boring... But wait we\
       \ love to talk to you so that we can learn a lot of things from you.. You are\
       \ quite interesting. "
+  utter_parent:
+  - text: I have only one parent. And she is Sandra... She coded me
   utter_positive:
   - text: No worries, I'm glad you are here :D
   - text: All is well!!
@@ -209,6 +250,15 @@ templates:
   utter_welcome:
   - text: You're welcome
   - text: Never Mention Dear!!
+  - text: that's my pleasure
+  - text: My pleasure
+  - text: Anytime
+  - text: Welcome
+  - text: You're Welcome
+  - text: Sure Welcome
+  - text: Welcome here
+  - text: You're so welcome
+  - text: Anything you want
   utter_what_music:
   - text: What kind of music do you like?
   - text: Which is your favorite music genre?

@@ -1,6 +1,11 @@
 %YAML 1.1
 ---
 actions:
+- utter_birthdate
+- utter_bot_intro
+- utter_parent
+- utter_am_here
+- utter_antisuicidal
 - utter_solitude_quotes
 - utter_sleep_remedy
 - utter_headache_remedy
@@ -32,11 +37,11 @@ actions:
 - utter_no_annoying
 - utter_no_boring
 - utter_thankyou
+- utter_default
 - action_greet
 - action_bye
 - utter_ask_name
 - sendmail
-- booking
 config:
   store_entities_as_slots: true
 entities:
@@ -44,8 +49,23 @@ entities:
 - duration
 - PERSON
 - date
-forms: []
+forms:
+- booking
 intents:
+- nothingmuch:
+    use_entities: true
+- breakup:
+    use_entities: true
+- good:
+    use_entities: true
+- bad:
+    use_entities: true
+- birthday:
+    use_entities: true
+- whoareyou:
+    use_entities: true
+- whoisyourparent:
+    use_entities: true
 - greet:
     use_entities: true
 - app_date:
@@ -55,6 +75,8 @@ intents:
 - intro:
     use_entities: true
 - goodbye:
+    use_entities: true
+- talk:
     use_entities: true
 - user_input:
     use_entities: true
@@ -90,7 +112,7 @@ intents:
     use_entities: true
 - boring:
     use_entities: true
-- good:
+- compliment:
     use_entities: true
 - angry:
     use_entities: true
@@ -102,11 +124,11 @@ slots:
   PERSON:
     auto_fill: true
     initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: rasa_core.slots.UnfeaturizedSlot
   date:
     auto_fill: true
     initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: rasa_core.slots.UnfeaturizedSlot
   duration:
     auto_fill: true
     initial_value: null
@@ -115,19 +137,29 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
+  requested_slot:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
 templates:
   utter_affirm:
   - text: Alright!
   - text: Nice!
   - text: Okay :)
   - text: Cool
+  utter_am_here:
+  - text: ' Oh sorry dear... I am here to talk to you...'
+  utter_antisuicidal:
+  - text: I am here to listen to you.. I am really worried about you dear
+  - text: I’m so glad you told me that you’re thinking of suicide.
+  - text: I’m sad you’re hurting like this.
   utter_appointment:
   - text: Do you require an appoinment with your doctor?
   utter_ask_abt_day:
   - text: How are you doing?
   - text: How is the day?
   utter_ask_date:
-  - text: When do need the appointment? Mention the date in(dd/mm/yyy) format
+  - text: When do you need the appointment? Mention the date in(dd/mm/yyy) format
   utter_ask_motivation:
   - text: Do you need any motivation?
   utter_ask_name:
@@ -137,8 +169,20 @@ templates:
   - text: Why do you feel so dear?
   - text: Tell me what happened...
   - text: What happened dear?
+  utter_birthdate:
+  - text: I was born on Jan 01 2019...
+  utter_bot_intro:
+  - text: Hi I am Quinn.. I am here to be your friend and I love talking to you..
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  - image: https://i.pinimg.com/originals/b7/f6/47/b7f647dce9c5f6f68e6e4ea11d40d2a8.jpg
+    text: 'Here is something to cheer you up:'
+  - image: https://i.pinimg.com/236x/0e/51/2d/0e512d8c737e83d0f0c98547febec734--her-quotes-quotes-for-life.jpg
+    text: 'Here is something to cheer you up:'
+  - image: https://i.pinimg.com/originals/a6/57/5f/a6575f8c5239c88559b7d4850266dc7c.gif"
+    text: 'Here is something to cheer you up:'
+  - image: https://data.whicdn.com/images/59454719/original.jpg
     text: 'Here is something to cheer you up:'
   utter_chit_chat:
   - text: What are you doing now?
@@ -146,6 +190,8 @@ templates:
   - text: It's okay dear... This too shall pass
   - text: I know this is tough... But every problem has a solution
   - text: Relax dear... things will get better
+  utter_default:
+  - text: Sorry dear, I didn’t understand that
   utter_did_that_help:
   - text: Did that help you?
   utter_explain_more:
@@ -163,6 +209,8 @@ templates:
   - text: Dont feel guilty dear...
   utter_happy:
   - text: Great carry on!
+  - text: That sounds good.. Be happy always
+  - text: Always stay happy.. and keep smiling
   utter_headache_remedy:
   - text: If you’ve been awake for more than 20 minutes, get out of bed and do a quiet,
       non-stimulating activity, such as reading a book. Keep the lights dim and avoid
@@ -193,11 +241,13 @@ templates:
   - text: I have something here to motivate you url:"https://www.youtube.com/watch?v=tC2l--VdjMY"
   - text: This may help you url:"https://www.youtube.com/watch?v=fiutY4ojZUQ"
   utter_no_annoying:
-  - text: text:"Sorry dear if you feel so.. I was just trying to help you.."
+  - text: Sorry dear if you feel so.. I was just trying to help you..
   utter_no_boring:
   - text: "Haha.. that's cool.. Humans always find bots to be boring... But wait we\
       \ love to talk to you so that we can learn a lot of things from you.. You are\
       \ quite interesting. "
+  utter_parent:
+  - text: I have only one parent. And she is Sandra... She coded me
   utter_positive:
   - text: No worries, I'm glad you are here :D
   - text: All is well!!
@@ -246,6 +296,15 @@ templates:
   utter_welcome:
   - text: You're welcome
   - text: Never Mention Dear!!
+  - text: that's my pleasure
+  - text: My pleasure
+  - text: Anytime
+  - text: Welcome
+  - text: You're Welcome
+  - text: Sure Welcome
+  - text: Welcome here
+  - text: You're so welcome
+  - text: Anything you want
   utter_what_music:
   - text: What kind of music do you like?
   - text: Which is your favorite music genre?
